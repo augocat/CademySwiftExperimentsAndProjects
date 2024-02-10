@@ -338,16 +338,16 @@ print("===============================================================")
 //Note: You will see an error in the terminal on the right if there are still any _ _ _ present in your code. The error should go away after you’ve replaced each _ _ _ with an operator.
 // Add the correct logical operator in place of ___ to make each variable true
 
-let bool1 = (true ___ false) || false || false
-
-let bool2 = !true ___ (false && false || true)
-
-let bool3 = !(false && true) ___ (false || false)
-
-
-print(bool1) // should be true
-print(bool2) // should be true
-print(bool3) // should be false
+//let bool1 = (true ___ false) || false || false
+//
+//let bool2 = !true ___ (false && false || true)
+//
+//let bool3 = !(false && true) ___ (false || false)
+//
+//
+//print(bool1) // should be true
+//print(bool2) // should be true
+//print(bool3) // should be false
 
 print("===============================================================")
 print("=============================Review============================")
