@@ -1087,7 +1087,6 @@ print("===============================================================")
 print("================Variadic Parameters==============")
 print("===============================================================")
 //Instructions
-Instructions
 //  1.  In the code editor, we'll write a function, avgSongLength(), that will calculate the average duration of 10 Eurovision songs from the 2019 contest in Israel.
 //  •  ﻿﻿The function should accent a times variadic parameter of the type, Int.
 //  •  ﻿﻿The function should return a value of the type, Int.
