@@ -121,9 +121,10 @@ print("===============================================================")
 //1.  In Glasses.swift, we'll create an if/else that prints an emoji representing you!
 //First, declare a variable, wearGlasses. Assign it a Boolean value true or false depending on if you wear glasses.
 //2.  Below wearGlasses, create an if/else statement that:
-//•  ﻿﻿prints, "I wear glasses" if true
-//•  ﻿﻿prints, "I don't wear glasses" otherwise
+//•  ﻿﻿prints, "I wear glasses 😎" if true
+//•  ﻿﻿prints, "I don't wear glasses 😊" otherwise
 // Write your code below 👓
+
 
 print("===============================================================")
 print("======================Comparison Operators=====================")
@@ -133,10 +134,10 @@ print("===============================================================")
 //•  ﻿﻿First, create an if statement that checks if tuneSquadPoints is less than monstarsPoints using the correct comparison operator.
 //•  ﻿﻿Within the body of your if statement, print a message for the winning team.
 //2.  Add an else statement. Within the body of your else statement, print a message for the other winning team.
-//let tuneSquadPoints = 78
-//let monstarsPoints = 77
-//
+let tuneSquadPoints = 78
+let monstarsPoints = 77
 // Write your code below 🏀
+
 
 print("===============================================================")
 print("=======================Else If Statements======================")
@@ -153,8 +154,8 @@ print("===============================================================")
 Spanish: Spa
 Chinese: Chi
 Tagalog: Tag*/
-
 // Write your code below 🗽
+
 
 print("===============================================================")
 print("==================Ternary Conditional Operator=================")
@@ -169,8 +170,8 @@ print("Sails up")
 } else {
 print("Motor on")
 }
-
 // Write your code below ⛵️
+
 
 print("===============================================================")
 print("========================Switch Statement=======================")
@@ -193,8 +194,8 @@ superheroName = "Thor"
 } else {
 superheroName = "Unknown"
 }
-
 // Write your code below
+
 
 print("===============================================================")
 print("===============Switch Statement: Interval Matching=============")
@@ -212,8 +213,8 @@ print("===============================================================")
 //4.  Continue practicing in the editor by testing your code with different values for episode or adding more cases to the switch statement. Make sure it's working as expected before moving on.
 var episode = 8
 var villain: String
-
 // Write your code below 🦹
+
 
 print("===============================================================")
 print("================Switch Statement: Compound Cases===============")
@@ -229,8 +230,8 @@ print("===============================================================")
 //Lastly, use a default statement that outputs Unknown planet.
 //3.  Continue practicing in the editor by testing your code with different values for planet. Make sure it's working as expected before moving on.
 var planet = "Earth"
-
 // Write your code below 🪐
+
 
 //Terrestrial planet
 print("===============================================================")
@@ -250,8 +251,8 @@ print("===============================================================")
 //  •  ﻿﻿Set up the .random() method to accept a range of Integers between 10 and 20. Assign this calculation to wholeNumber.
 //  •  ﻿﻿Use a print() statement below the variable to output the value of wholeNumber.
 var wholeNumber = 15
-
 // Write your code below
+
 
 print("===============================================================")
 print("=============================Review============================")
