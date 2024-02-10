@@ -155,6 +155,7 @@ print("===============================================================")
 //•  ﻿﻿The if and else if statement code blocks should each contain a print statement with the corresponding language. For example, if the abbreviation is FR, the String printed should be French.
 //•  Use an else statement after the last else if statement that prints the message, Abbreviation not found.
 /*English: Eng
+ French: Fr
 Spanish: Spa
 Chinese: Chi
 Tagalog: Tag*/
@@ -282,8 +283,8 @@ print("===============================================================")
 //2.  Continue practicing in the editor by testing your code with different values for midnight or date . Make sure your code is working as expected before moving on.
 var midnight = true
 var date = "January 1, 2020"
-
 // Write your code below 🎊
+
 
 print("===============================================================")
 print("=======================Logical OR Operator=====================")
@@ -295,6 +296,7 @@ print("===============================================================")
 //2.  Below the variable declarations, create an if statement that determines the Boolean result of carInMotion OR insideCar in its condition.
 //Within the code block of the if statement, add a print statement that outputs Safety first! Buckle up.
 // Write your code below 🚘
+
 
 print("===============================================================")
 print("======================Logical NOT Operator=====================")
@@ -329,8 +331,8 @@ var correctPassword = false
 var lessThanThreeTries = true
 var accessThroughTouchID = true
 var unlock: Bool
-
 // Write your code below 🔒
+
 
 print("===============================================================")
 print("=================Controlling Order of Execution================")
@@ -372,8 +374,9 @@ print("===============================================================")
 print("=========================Repeating Tasks=======================")
 print("===============================================================")
 //Instructions
-//1.  Using 16 print() statements, print out: "This can be so much easier with loops!”
+//1.  Using 16 print() statements, print out: "This can be so much easier with loops!"
 // Add your code below 😈
+
 
 print("===============================================================")
 print("=========================The for-in Loop=======================")
@@ -386,7 +389,6 @@ print("===============================================================")
 //2.  We want our for-in loop to help us print out the last part of the Happy Birthday song.
 //Inside the block of the loop add a print() statement to print out:
 //Are you [age]?
-
 //Where [age] is replaced by the value of age in its current iteration.
 // The start of the Happy Birthday song 🎂
 print("Happy Birthday to you.")
@@ -394,8 +396,8 @@ print("Happy Birthday to you!")
 print("Happy Birthday dear Codecademy Userrrr.")
 print("Happy Birthday to you!!")
 print(".......................")
-
 // Add your code below 🥳
+
 
 print("===============================================================")
 print("=======================The Stride Function=====================")
@@ -424,8 +426,8 @@ print("===============================================================")
 //•  Add an if statement that checks if the character (char) is not an "x".
 //•  Inside the if statement, use print() to print out the character (char).
 var funFact = "exlxephxxxaxnts xcaxxn'xxt xxxjxumxpx."
-
 // Add your code below 🐘
+
 
 print("===============================================================")
 print("========================Using Underscore=======================")
@@ -437,6 +439,7 @@ print("===============================================================")
 //•  During each iteration, print out a string to remind you of something. E.g.: "Buy eggs from the market”.
 // Add your code below 📝
 
+
 print("===============================================================")
 print("======================The continue Keyword=====================")
 print("===============================================================")
@@ -447,8 +450,7 @@ print("===============================================================")
 //•  Inside the body of the if statement, the continue keyword.
 for num in 1...9 {
 // Add your code below 🔢
-
-
+  
 
 print(num)
 }
@@ -466,7 +468,6 @@ print("===============================================================")
 //•  After the print() statement, add a break keyword.
 //After you pass this step, run the program a few times to get a sense of when break is exiting the loop.
 var guessedNum = Int.random(in: 1...15)
-
 for counter in 1...15 {
 // Add your code below 🤔
 
@@ -490,8 +491,8 @@ print("===============================================================")
 //Where [guess] and [magicNum] are replaced by the actual values of guess and magicNum.
 var guess = Int.random(in: 1...10)
 var magicNum = Int.random(in: 1...10)
-
 // Add your code here ✨
+
 
 print("You're right it was \(guess)!")
 print("===============================================================")
@@ -519,6 +520,7 @@ print("===============================================================")
 //Then print it out.
 // Write your code below 🚇
 
+
 print("===============================================================")
 print("====================Creating an Array Literal==================")
 print("===============================================================")
@@ -534,6 +536,7 @@ print("===============================================================")
 //Then print it out.
 // Write your code below 🚇
 
+
 print("===============================================================")
 print("==============================Index============================")
 print("===============================================================")
@@ -541,8 +544,8 @@ print("===============================================================")
 //1.  The 24-hour weather forecast is recorded in an array called temperature, starting with the current temperature as its first value.
 //Print the current temperature using its index.
 var temperature: [Int] = [66, 68, 72, 76, 80, 82, 85, 85, 84, 82, 81, 78, 74, 73, 72, 71, 70, 69, 68, 65, 63, 62, 61, 63]
-
 // Write your code below 🌴
+
 
 print("===============================================================")
 print("=========================.count Property=======================")
@@ -551,8 +554,8 @@ print("===============================================================")
 //1.  It takes too long to count the number of elements in countingRhyme with your eyes.
 //Print the size of the array using .count.
 var countingRhyme = ["eeny", "meeny", "miny", "moe", "catch", "a", "coder", "by", "the", "toe", "if", "they", "debug", "let", "them", "go", "eeny", "meeny", "miny", "moe"]
-
 // Write your code below 🐛
+
 
 print("===============================================================")
 print("================.append() Method==============")
@@ -566,8 +569,8 @@ print("===============================================================")
 var resolutions = ["play more music 🎸",
                  "read more books 📚",
                  "drink more water 💧"]
-
 // Write your code below 💪
+
 
 print("===============================================================")
 print("================.insert() and .remove() Methods==============")
@@ -579,8 +582,8 @@ print("===============================================================")
 //3.  What does the array look like now?
 //Print dna to find out.
 var dna = ["ATG", "ACG", "GAA", "TAT"]
-
 // Write your code below 🧬
+
 
 print("===============================================================")
 print("================Iterating Over an Array==============")
@@ -594,8 +597,8 @@ print("===============================================================")
 //Change the value of total by multiplying itself by 1.08875.
 //4.  Finally, print the value of total.
 var receipt = [12.00, 3.75, 6.50, 19.99]
-
 // Write your code below 🧾
+
 
 print("===============================================================")
 print("=============================Review============================")
