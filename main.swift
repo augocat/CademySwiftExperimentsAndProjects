@@ -17,6 +17,7 @@ print("===============================================================")
 //2.  Output year using print().
 // Write your code below ⏳
 
+
 print("===============================================================")
 print("======================Arithmetic Operators=====================")
 print("===============================================================")
@@ -26,8 +27,8 @@ print("===============================================================")
 //2.  Now print out tip.
 //How much is the tip?
 var amount = 18.50
-
 // Write your code below 🧾
+
 
 print("===============================================================")
 print("==================Compound Assignment Operators================")
@@ -38,11 +39,10 @@ print("===============================================================")
 //2.  Another customer purchases half of the available apples.
 //Underneath your previous code, change the value of apples to reflect this exchange using a compound assignment operator.
 var apples = 16
-
 // Write your code below 🍎
 
-print(apples)
 
+print(apples)
 print("===============================================================")
 print("==============================Type=============================")
 print("===============================================================")
@@ -51,6 +51,7 @@ print("===============================================================")
 //2.  Declare an Int variable named pageCount with a value of 278.
 // Write your code below
 
+
 print("===============================================================")
 print("======================String Interpolation=====================")
 print("===============================================================")
@@ -58,9 +59,9 @@ print("===============================================================")
 //1.  Inside String.swift, declare a variable called age and set it equal to your age.
 //2.  With age set up, use print() and string interpolation to output:
 //I am [age] years old.
-//
 //Where [age] should be the value of the variable age.
 // Write your code below
+
 
 print("===============================================================")
 print("============================Constants==========================")
@@ -70,6 +71,7 @@ print("===============================================================")
 //E.g. January ends in “y".
 // Write your code below
 
+
 print("===============================================================")
 print("=====================Challenge: Temperature====================")
 print("===============================================================")
@@ -78,11 +80,12 @@ print("===============================================================")
 //Declare a Double variable named tempf and initialize it with the temperature.
 //Declare another Double variable named tempc.
 //2. Convert the temperature to Celsius using the formula provided.
+// C = (F - 32) /1.8
 //Store the result in tempc.
 //3. Display the result using string interpolation. Output exactly like so:
 //The temp is [tempc] degrees Celsius.
-
 // Write your code below 🌡️
+
 
 print("===============================================================")
 print("=============================Review============================")
@@ -113,6 +116,7 @@ print("===============================================================")
 //3.  Reassign the value of learningToCode to false after the initial variable declaration but before the if statement.
 //Observe what happens when you run the program. Did the message get printed?
 // Write your code below
+
 
 print("===============================================================")
 print("=========================Else Statement========================")
