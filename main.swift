@@ -436,7 +436,7 @@ print("===============================================================")
 //1.  In Underscore.swift:
 //•  Write a for-in loop that uses an underscore _.
 //•  It should loop through the range 1...15.
-//•  During each iteration, print out a string to remind you of something. E.g.: "Buy eggs from the market”.
+//•  During each iteration, print out a string to remind you of something. E.g.: "Buy eggs from the market".
 // Add your code below 📝
 
 
