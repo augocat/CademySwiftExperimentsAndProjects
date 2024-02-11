@@ -399,6 +399,7 @@ print(".......................")
 // Add your code below 🥳
 
 
+
 print("===============================================================")
 print("=======================The Stride Function=====================")
 print("===============================================================")
@@ -429,6 +430,7 @@ var funFact = "exlxephxxxaxnts xcaxxn'xxt xxxjxumxpx."
 // Add your code below 🐘
 
 
+
 print("===============================================================")
 print("========================Using Underscore=======================")
 print("===============================================================")
@@ -438,6 +440,7 @@ print("===============================================================")
 //•  It should loop through the range 1...15.
 //•  During each iteration, print out a string to remind you of something. E.g.: "Buy eggs from the market".
 // Add your code below 📝
+
 
 
 print("===============================================================")
@@ -452,6 +455,7 @@ for num in 1...9 {
 // Add your code below 🔢
   
 
+ 
 print(num)
 }
 
@@ -472,6 +476,7 @@ for counter in 1...15 {
 // Add your code below 🤔
 
 
+ 
 print("Is it \(counter)?")
 }
 print("===============================================================")
@@ -492,6 +497,7 @@ print("===============================================================")
 var guess = Int.random(in: 1...10)
 var magicNum = Int.random(in: 1...10)
 // Add your code here ✨
+
 
 
 print("You're right it was \(guess)!")
@@ -521,6 +527,7 @@ print("===============================================================")
 // Write your code below 🚇
 
 
+
 print("===============================================================")
 print("====================Creating an Array Literal==================")
 print("===============================================================")
@@ -537,6 +544,7 @@ print("===============================================================")
 // Write your code below 🚇
 
 
+
 print("===============================================================")
 print("==============================Index============================")
 print("===============================================================")
@@ -547,6 +555,7 @@ var temperature: [Int] = [66, 68, 72, 76, 80, 82, 85, 85, 84, 82, 81, 78, 74, 73
 // Write your code below 🌴
 
 
+
 print("===============================================================")
 print("=========================.count Property=======================")
 print("===============================================================")
@@ -555,6 +564,7 @@ print("===============================================================")
 //Print the size of the array using .count.
 var countingRhyme = ["eeny", "meeny", "miny", "moe", "catch", "a", "coder", "by", "the", "toe", "if", "they", "debug", "let", "them", "go", "eeny", "meeny", "miny", "moe"]
 // Write your code below 🐛
+
 
 
 print("===============================================================")
@@ -572,6 +582,7 @@ var resolutions = ["play more music 🎸",
 // Write your code below 💪
 
 
+
 print("===============================================================")
 print("================.insert() and .remove() Methods==============")
 print("===============================================================")
@@ -583,6 +594,7 @@ print("===============================================================")
 //Print dna to find out.
 var dna = ["ATG", "ACG", "GAA", "TAT"]
 // Write your code below 🧬
+
 
 
 print("===============================================================")
@@ -598,6 +610,7 @@ print("===============================================================")
 //4.  Finally, print the value of total.
 var receipt = [12.00, 3.75, 6.50, 19.99]
 // Write your code below 🧾
+
 
 
 print("===============================================================")
@@ -626,6 +639,8 @@ print("===============================================================")
 //Output vowels to the terminal.
 // Add your code below 🔤
 
+
+
 print("===============================================================")
 print("================.count and .isEmpty==============")
 print("===============================================================")
@@ -638,8 +653,9 @@ print("===============================================================")
 //
 //Replace [X] with the number of items in sockDrawer using .count.
 var sockDrawer: Set = ["Red Polka Dots", "Blue Stripes", "Plain Whites"]
-
 // Add your code below 🧦
+
+
 
 print("===============================================================")
 print("================Inserting Elements==============")
@@ -650,8 +666,9 @@ print("===============================================================")
 //Notice that, when we run this code, "Ron" is only printed once even though we inserted the value for a second time.
 var friends: Set = ["Harry", "Ron"]
 print("There are some things you can't share without ending up liking each other, and defeating a twelve-foot mountain troll is one of them.")
-
 // Add your code below ✨
+
+
 
 print("Friends: \(friends)")
 print("===============================================================")
@@ -665,8 +682,9 @@ print("===============================================================")
 //Remove all the values from planets using .removeAll().
 //Print the value of planets again.
 var planets: Set = ["Earth", "Jupiter", "Mars", "Neptune", "Saturn", "Venus", "Uranus", "Mercury", "Pluto"]
-
 // Write your code below ⭐
+
+
 
 print(planets)
 print("===============================================================")
@@ -678,8 +696,9 @@ print("===============================================================")
 //•  In the if, print "One blueberry coffee coming right up."
 //•  In the else, print "We do not serve that coffee flavor here."
 var coffeeFlavors: Set = ["Caramel", "Mocha", "Pumpkin Spice", "Vanilla", "Blueberry"]
-
 // Write your code below 🍵
+
+
 
 print("===============================================================")
 print("================Iterating Through a Set==============")
@@ -691,10 +710,10 @@ print("===============================================================")
 //2.  Inside the body of the loop, use .insert() to add item to the set suitcase.
 //Outside the loop, print() the value of suitcase.
 var thingsToPack: Set = ["Bathing Suit", "Clothes", "Sunglasses", "Sunscreen", "Favorite Book", "Phone Charger"]
-
 var suitcase = Set<String>()
-
 // Add your code below 🌴
+
+
 
 print("===============================================================")
 print("================Set Operations: .intersection()==============")
@@ -704,10 +723,10 @@ print("===============================================================")
 //Use .intersection() to create a set called swimAndFly that contains the shared values of swim and fly.
 //Use print() to output swimAndFly.
 var swim: Set = ["Turtles", "Ducks", "Puffins", "Shark"]
-
 var fly: Set = ["Humming birds", "Bats", "Ducks", "Puffins"]
-
 // Add your code below 🦆
+
+
 
 print("===============================================================")
 print("================Set Operations: .union()==============")
@@ -716,10 +735,10 @@ print("===============================================================")
 //1.  In Alphabet.swift, create a set called alphabet that uses .union() to combine the values of the sets consonants and vowels.
 //Use print() to output alphabet.
 var consonants: Set = ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"]
-
 var vowels: Set = ["A", "E", "I", "O", "U"]
-
 // Write your code below 🔡
+
+
 
 print("===============================================================")
 print("================Set Operations: .symmetricDifference()==============")
@@ -730,8 +749,9 @@ print("===============================================================")
 //Print the value of difference.
 var oscarWinners: Set = ["Heath Ledger", "Rita Moreno", "Audrey Hepburn", "John Legend"]
 var emmyWinners: Set = ["Peter Dinklage", "John Legend", "Audrey Hepburn", "Rita Moreno"]
-
 // Add your code below 🏆
+
+
 
 print("===============================================================")
 print("================Set Operations: subtracting()==============")
@@ -742,8 +762,9 @@ print("===============================================================")
 //Print the value of veggieEmojis.
 var foodEmojis: Set = ["🥕", "🍇", "🌶️", "🍒", "🍎", "🥦"]
 var fruitEmojis: Set = ["🍇", "🍎", "🍒"]
-
 // Add your code below 🥗
+
+
 
 print("===============================================================")
 print("=============================Review============================")
