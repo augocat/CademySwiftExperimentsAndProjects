@@ -789,6 +789,8 @@ print("===============================================================")
 //2.  Declare an empty dictionary called emptyInitializer with String type keys and Bool type values using initializer syntax method.
 // Write your code below 😶
 
+
+
 print("===============================================================")
 print("================Creating a Dictionary Literal==============")
 print("===============================================================")
@@ -804,6 +806,8 @@ print("===============================================================")
 //Run the program a few times. Did the order in which the elements appear change?
 // Write your code below 👇
 
+
+
 print("===============================================================")
 print("================Type Inference==============")
 print("===============================================================")
@@ -814,6 +818,8 @@ print("===============================================================")
 //•  "Toy Story": 1995
 //Print the value of movieYears to the terminal.
 // Write your code below 🍿
+
+
 
 print("===============================================================")
 print("================Adding Elements==============")
@@ -829,8 +835,9 @@ var teaSteepingTemperature = [
 "Oolong": 185,
 "White": 185
 ]
-
 // Add your code below 🍵
+
+
 
 print("===============================================================")
 print("================Updating Elements==============")
@@ -847,8 +854,9 @@ var abbreviations = [
 "BRB": "Bringing Radishes Back",
 "GJOYC": "Great Job On Your Code"
 ]
-
 // Add your code below 🆘
+
+
 
 print(abbreviations)
 print("===============================================================")
@@ -868,8 +876,9 @@ var rainbowHex = [
 "blue": "#0000ff",
 "violet": "#ee82ee"
 ]
-
 // Write your code below 🌈
+
+
 
 print(rainbowHex)
 print("===============================================================")
@@ -887,8 +896,9 @@ var numberOfSides = [
 "decagon": 10,
 "triacontagon": 30
 ]
-
 // Add your code below 🔺
+
+
 
 print("===============================================================")
 print("================Accessing Values==============")
@@ -906,8 +916,9 @@ var flowerNames = [
 "Orchid": "Orchidaceae",
 "Daffodil": "Narcissus"
 ]
-
 // Add your code below 🌼
+
+
 
 print("===============================================================")
 print("================Iterating through a Dictionary==============")
@@ -926,8 +937,9 @@ var mythology = [
 "Athena": "Minerva",
 "Poseidon": "Neptune",
 "Demeter": "Ceres"]
-
 // Write your code below 🏛️
+
+
 
 print("===============================================================")
 print("================Using .keys and .values==============")
@@ -944,9 +956,7 @@ var lemonadeStand = [
 "August": 32.50,
 "September": 11.50
 ]
-
 var total: Double = 0.0
-
 // Add your code below 🍋
 
 
@@ -980,6 +990,8 @@ print("===============================================================")
 //Remember, you shouldn't see any output in the terminal at this point.
 // Write your code below 🚇
 
+
+
 print("===============================================================")
 print("================Calling a Function==============")
 print("===============================================================")
@@ -989,6 +1001,8 @@ print("===============================================================")
 //•  ﻿﻿mySpecialRecipe() should contain print() statements with the instructions for your recipe.
 //2.  Below the function definition, call the function and see your recipe in the terminal.
 // Write your code below 🍲
+
+
 
 print("===============================================================")
 print("================Returning a Value==============")
@@ -1003,8 +1017,9 @@ print("===============================================================")
 //3.  Call the function and wrap it in a print() statement to see its output.
 let weight = 70.0 // in Kilograms
 let height = 1.73 // in Meters
-
 // Write your code below 💪
+
+
 
 print("===============================================================")
 print("================Parameters and Arguments==============")
@@ -1017,6 +1032,8 @@ print("===============================================================")
 //On the following line, print the value of result.
 // Write your code below 🥧
 
+
+
 print("===============================================================")
 print("================Multiple Parameters==============")
 print("===============================================================")
@@ -1026,13 +1043,15 @@ print("===============================================================")
 //•  ﻿﻿timeToDestination() should return a value of the type Int.
 //Note: You will see an error in the terminal on the right, but it will go away in the next step when we populate the body of the function with code.
 //2.  Within the function body, declare the constant, time and use the following formula to assign it a mathematical expression that determines the length of a flight:
-// {time = distance / speed}
+//  time = distance / speed
 //Following the variable declaration, return time.
 //3.  Assume the passenger is flying on a superjumbo jet - the A380 from Dubai to New York! Call the function and pass in the following information about the flight:
 //•  ﻿﻿The distance between Dubai and New York is 6836 miles. Pass in 6836 as the argument for distance.
 //•  ﻿﻿The average cruising speed is 560 miles per hour. Pass in 560 as the argument for speed.
 //Wrap the function call in a print() statement.
 // Write your code below 🛫
+
+
 
 print("===============================================================")
 print("================Argument Labels==============")
@@ -1044,6 +1063,8 @@ print("===============================================================")
 //4.  Call the addFriend(named:) method three times to add the following friends: "Alice", "Bob", and "Cindy".
 //5.  Print the contents of the friendsList variable.
 // Write your code below 🏷️
+
+
 
 print("===============================================================")
 print("================Omitting Argument Labels==============")
@@ -1066,8 +1087,9 @@ print("===============================================================")
 //4.  Wrap the function call in a print() statement to output the total price.
 let adults = 2
 let students = 15
-
 // Write your code below 🏛️
+
+
 
 print("===============================================================")
 print("================Returning Multiple Values==============")
@@ -1084,6 +1106,8 @@ print("===============================================================")
 //“My favorite [cuisine name] dish is [cuisine dish]!”
 // Write your code below 😋
 
+
+
 print("===============================================================")
 print("================Implicit Return==============")
 print("===============================================================")
@@ -1094,6 +1118,8 @@ print("===============================================================")
 //Wrap the function call in a print() statement to see the function's output.
 //3.  Remove the return keyword from within the function body. Your function should still execute and return the correct remainder using implicit return.
 // Write your code below ➗
+
+
 
 print("===============================================================")
 print("================Default Parameters==============")
@@ -1112,6 +1138,8 @@ print("===============================================================")
 //Wrap this function call in a print() statement.
 // Write your code below 🎫
 
+
+
 print("===============================================================")
 print("================Variadic Parameters==============")
 print("===============================================================")
@@ -1126,13 +1154,13 @@ print("===============================================================")
 //  •  ﻿﻿Name the placeholder, time
 //  •  ﻿﻿Within the body of the loop, use += to add and reassign the value of time to total.
 //Below the for/in loop, return the following expression:
-//total / times.count
-//
+//  total / times.count
 //  3.  Finally, call the function with the following values for times:
 //183, 176, 180, 176, 184, 179, 181, 180, 172, 178.
-//
 //These values represent the duration of the first ten songs in the album Eurovision Song Contest: Tel Aviv
 // Write your code below 🎶
+
+
 
 print("===============================================================")
 print("================In-Out Parameters==============")
@@ -1151,8 +1179,9 @@ print("===============================================================")
 //•  ﻿﻿For the state parameter, the argument should be &currentGeneratorState. The function will execute and modify the value of the currentGeneratorState as needed.
 //Lastly, print the value of currentGeneratorState to see the change.
 var currentGeneratorState = "Off"
-
 // Write your code below  💡
+
+
 
 print("===============================================================")
 print("=============================Review============================")
