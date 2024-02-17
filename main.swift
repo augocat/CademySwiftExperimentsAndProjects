@@ -1651,3 +1651,252 @@ enum VehicleF {
 // 3: Print the description of myRide here
 
 
+print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
+print("|||||||||||||||||||||======111. Optionals======||||||||||||||||||||")
+print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
+print("===============================================================")
+print("================Defining Optionals==============")
+print("===============================================================")
+//1.  Create a variable called hatColor of type optional String with an initial value of nil.
+//2.  Reassign hatColor to “blue”.
+//3.  Reassign hatColor to nil.
+//4.  Print the value of hatColor. The red text in the console should display some warnings letting us know that there’s more we can do to work with optionals!
+// Write your code below using optionals❓
+
+
+
+print("===============================================================")
+print("================Force Unwrapping Optionals==============")
+print("===============================================================")
+//1.  Define a variable flightDistance of type Int with a value of 1000, and a variable connectingFlightDistance of type Int? with a value of 2000.
+//2.  Write an if statement that checks if connectingFlightDistance is not nil.
+//3.  In the body of the if statement, define a constant totalFlightDistance assigned to the sum of flightDistance and connectingFlightDistance. Then, print the totalFlightDistance.
+// Write your code below ✈️
+
+
+
+print("===============================================================")
+print("================Optional Binding==============")
+print("===============================================================")
+//1.  Define a variable firstName and assign it to your first name. Then define a variable lastName assigned to your last name.
+//2.  Declare a variable suffix of type String? and assign it to a non-nil value like Sr. or III.
+//3.  Use optional binding to print the message “Hello, firstName lastName nameOfUnwrappedSuffixVariable” if the suffix is non-nil.
+//4.  Above the if let statement, reassign suffix to nil. Notice how nothing is printed now.
+//5.  Add an else block to the if/let statement that prints “Hello, firstName lastName”
+// Write your code below 📛
+
+
+
+print("===============================================================")
+print("================Multiple Optional Bindings==============")
+print("===============================================================")
+//1.  Refactor the code to use a single if/let statement.
+var language = "Swift"
+var firstRelease: Int? = 2014
+var website: String? = "swift.org"
+var designer: String? = "Chris Lattner"
+var shouldDisplayMessage = true
+
+// Refactor the code below to use a single if let statement
+
+if let firstRelease = firstRelease {
+  if let website = website {
+      if let designer = designer {
+          if shouldDisplayMessage {
+              let message =
+                  """
+                  \(language) was first released in \(firstRelease).
+                  Its website can be found at \(website).
+                  It was designed by \(designer).
+                  """
+              print(message)
+          }
+      }
+  }
+}
+print("===============================================================")
+print("================Guard Statements==============")
+print("===============================================================")
+//1.  Refactor the code to use a single guard statement. If any of the variables are nil or the Bool is false, return from the function.
+func runProgram() {
+let language = "Swift"
+let firstRelease: Int? = 2014
+let website: String? = "swift.org"
+let designer: String? = "Chris Lattner"
+let shouldDisplayMessage = true
+
+// Refactor the code below to use a single guard statement
+
+if let unwrappedRelease = firstRelease {
+    if let unwrappedWebsite = website {
+        if let unwrappedDesigner = designer {
+            if shouldDisplayMessage {
+                let message =
+                    """
+                    \(language) was first released in \(unwrappedRelease).
+                    Its website can be found at \(unwrappedWebsite).
+                    It was designed by \(unwrappedDesigner).
+                    """
+                print(message)
+            }
+        }
+    }
+}
+}
+
+runProgram()
+print("===============================================================")
+print("================The Nil-Coalescing Operator==============")
+print("===============================================================")
+//1.  Declare a variable named favoriteFood of type String? with an initial value of nil.
+//2.  Print favoriteFood to the console. Notice the warnings that appear. Do you see a suggestion in the warnings that uses ???
+//3.  Inside the print statement, use the nil-coalescing operator to give a default value of “No Favorite Food”.
+// Write your code below 🧆
+
+
+print("===============================================================")
+print("================Optional Chaining==============")
+print("===============================================================")
+//1.  Use an if/let statement and optional chaining to print the length of the president’s name in the form “The president’s name is presidentNameLength characters long”
+//2.  Use an if/let statement and optional chaining to print the length of the vice president’s name in the form “The vice president’s name is vicePresidentNameLength characters long”. The key for the vice president would be “vicePresident” in the studentGovernment dictionary.
+//3.  Add an else statement to the if/let statement that binds the vice president’s name’s length. In the body of the else statement, print “There is no vice president”
+var studentGovernment = [
+  "president": "Shristi",
+  "treasurer": "Diego"
+]
+
+// Write your code below 🏛️
+
+
+
+
+print("===============================================================")
+print("================Optionals and Functions==============")
+print("===============================================================")
+//1.  Define a function firstIndex(of:in) that takes in a String named “target” with an argument label “of’, and an array of optional strings named “arr” with an argument label “in”. The function should return an optional Int. Don’t worry if the code doesn’t compile at this point yet.
+//2.  This function should iterate over arr and return the first index the target string appears. If the target string is not in arr, the function should return nil. For example:
+//let optionalLetters: [String?] = ["a", "b", nil, "c"]
+//firstIndex(of: "b", in: optionalLetters) // Should return 1
+//firstIndex(of: "d", in: optionalLetters) // Should return nil
+//In the body of the function:
+//•  Iterate over the indices in arr and unwrap each value
+//•  If the value is equal to the target, return the current index
+//•  After the for loop, return nil, because the target was not found in arr
+//3.  Use an if/let statement to bind firstIndex(of: "great", in: words) to a constant greatIndex, then print the value of greatIndex.
+//4.  Use an if/let statement to bind firstIndex(of: "bad", in: words) to a constant badIndex, then print the value of badIndex. Add an else statement to the if/let that prints “words does not contain the string ‘bad’”.
+let words = ["optionals", nil, "are", "great", nil, "at", "handling", nil, "values"]
+
+// Write your code below 🤔
+
+
+
+("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
+print("|||||||||||||||||||||======1000. Closures======||||||||||||||||||||")
+print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
+print("===============================================================")
+print("================Defining a closure==============")
+print("===============================================================")
+//1.  Create a closure that takes no arguments and returns no value. Have the closure print "Hello closures!" in the console. Assign the closure to a constant named helloClosures
+//2.  Call the helloClosures closure in the following line.
+// Enter your code below
+
+
+print("===============================================================")
+print("================Inputs and Outputs==============")
+print("===============================================================")
+//1.  Use type annotation to define a closure that takes two integers and returns the sum. Assign it to a constant named add.
+//2.  Call the closure in the following line by adding two numbers and print the result to the console.
+// Enter your code below
+
+
+print("===============================================================")
+print("================Passing a closure to a function==============")
+print("===============================================================")
+//1.  To start, create a function named handValue that takes an array of integers named cards and a closure named scoringRules of type (Int) -> Int. The function should return an integer which will be the value of the hand.
+//2.  In the body of the handValue function, calculate the value of the hand with the scoring rules closure and return the value. Start by adding a variable named totalValue initialized to 0. Then apply the closure to each card by looping through the cards array. Return totalValue.
+//3.  Define a closure named allCards that matches the scoringRules type in our handValue function that counts all cards. Call the handValue function with the allCards closure. What do you expect the output to be?
+//4.  Define a closure named onlyEvens that matches the scoringRules type in our handValue function. The closure should only count cards if they are even. Use the isMultiple(of:) function to determine if the card is even. Call the handValue function with the closure. What do you expect the output to be?
+// For this exercise we will create a game that calculates the sum of a hand of cards. We will make the game configurable such that it accepts a closure defining the rules for how cards are counted.
+let cards = [8, 2, 5, 3, 41]
+
+// Enter your code below
+
+
+print("===============================================================")
+print("=======Closure expressions and trailing closure syntax=======")
+print("===============================================================")
+//1.  Create a function named bake that takes a String and a closure as arguments. The argument names should be ingredient and completionAction, respectively. The closure should accept a String and return no values.
+//2.  Within the bake function, print "Baking {ingredient}" to the console. Then, on the next line, call the closure passing in ingredient as its argument.
+//3.  Below this definition, call the bake method with an ingredient as the name input, and an inline trailing closure that prints "Finished baking {ingredient}" to the console.
+// Enter your code below
+
+
+print("===============================================================")
+print("================Closure syntactic sugar==============")
+print("===============================================================")
+//1.  Call the transform function with the provided array and a closure that reverses each string. Be as explicit as possible with the type definitions.
+//NOTE: The reversed() function on String doesn't return a String so we need to wrap the result in a String to convert it: String(str.reversed())
+//2.  Next, call the function without the return keyword and exclude the return type. Print the result to the console.
+//3.  Finally, call the function using shorthand argument names.
+// We have a function that transforms an array of strings.
+
+let strings = ["remit", "spans", "level"]
+
+func transform(strings: [String], transformer: (String) -> String) -> [String] {
+var transformedStrings = [String]()
+for string in strings {
+transformedStrings.append(transformer(string))
+}
+return transformedStrings
+}
+
+// Enter your code below
+
+
+print("===============================================================")
+print("================Built-in Higher-Order Functions==============")
+print("===============================================================")
+//1.  Using the filter function from above, filter the names array to only include those that begin with "A" and assign it to a constant named aNames. Use shorthand arguments and exclude the return keyword. Print the result to the console.
+//2.  Use Swift's higher-order function sorted(by:) to sort the names array alphabetically and assign the result to a constant named sortedNames. Print the result to the console.
+var names = ["Jason", "Kimberly", "Zach", "Austin", "Sarah", "Adam", "Kathy"]
+
+// Enter your code below
+
+
+print("===============================================================")
+print("================Escaping Closures==============")
+print("===============================================================")
+//1.  In Escaping. swift, we have a NumberPrinter struct that holds onto some closures for execution later. Add the @escaping keyword to the closures that require it.
+struct NumberPrinter {
+var startAction: () -> Void
+var completeAction: () -> Void
+
+//mutating func setStartAction(to action: () -> Void) {
+//self.startAction = action
+//}
+
+//mutating func setCompleteAction(to action: () -> Void) {
+//self.completeAction = action
+//}
+
+func printNumber(using numberGenerator: () -> Int) {
+startAction ()
+print (numberGenerator())
+completeAction()
+}
+}
+
+let printer = NumberPrinter(startAction: { print("Starting!") }, completeAction: { print("Finished!") })
+
+printer.printNumber(using: { Int.random(in: 1..<100) })
+printer.printNumber(using: { Int.random(in: 1..<5) })
+print("===============================================================")
+print("================Capturing Values==============")
+print("===============================================================")
+//1.  Define a function named createMultiplier that accepts an integer named factor and returns a closure with type () -> Int
+//2.  Within the function, declare a variable named value of type Int initialized with a value of 1. Then, declare a closure named multiplier that closes over value, multiplies it by factor, and is returned. Then, return the multiplier closure to the closing function.
+//3.  Create a closure from the createMultiplier function with a value of 3 and assign it to a constant named multiplier. What is the value after calling multiplier() 3 times?
+// Enter your code below
+
+
+
