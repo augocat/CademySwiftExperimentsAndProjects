@@ -4,14 +4,20 @@ print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("|||||||||||||||||||||======0001. Variables======|||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
+print("====================Introduction to Variables==================")
+print("===============================================================")
+//Instructions
+//Here's a preview of this lesson.
+//Click Next to continue.
+print("===============================================================")
 print("=======================Declare a Variable======================")
 print("===============================================================")
 //Instructions
 //1.  Declare a variable named year with a value of the current year.
 //2.  Output year using print().
 // Write your code below ⏳
-var year = 2024
-print(year)
+
+
 print("===============================================================")
 print("======================Arithmetic Operators=====================")
 print("===============================================================")
@@ -22,8 +28,8 @@ print("===============================================================")
 //How much is the tip?
 var amount = 18.50
 // Write your code below 🧾
-var tip = amount * 0.2
-print(tip)
+
+
 print("===============================================================")
 print("==================Compound Assignment Operators================")
 print("===============================================================")
@@ -34,8 +40,8 @@ print("===============================================================")
 //Underneath your previous code, change the value of apples to reflect this exchange using a compound assignment operator.
 var apples = 16
 // Write your code below 🍎
-apples -= 4
-apples /= 2
+
+
 print(apples)
 print("===============================================================")
 print("==============================Type=============================")
@@ -44,8 +50,8 @@ print("===============================================================")
 //1.  Declare a String variable named book with a value of "Just Kids".
 //2.  Declare an Int variable named pageCount with a value of 278.
 // Write your code below
-var book: String = "Just Kids"
-var pageCount: Int = 278
+
+
 print("===============================================================")
 print("======================String Interpolation=====================")
 print("===============================================================")
@@ -53,11 +59,10 @@ print("===============================================================")
 //1.  Inside String.swift, declare a variable called age and set it equal to your age.
 //2.  With age set up, use print() and string interpolation to output:
 //I am [age] years old.
-//
 //Where [age] should be the value of the variable age.
 // Write your code below
-var age = 25
-print("I am \(age) years old.")
+
+
 print("===============================================================")
 print("============================Constants==========================")
 print("===============================================================")
@@ -65,7 +70,8 @@ print("===============================================================")
 //1.  Declare a constant named months and assign it the number of months that end with "y".
 //E.g. January ends in “y".
 // Write your code below
-let months = 3
+
+
 print("===============================================================")
 print("=====================Challenge: Temperature====================")
 print("===============================================================")
@@ -74,18 +80,31 @@ print("===============================================================")
 //Declare a Double variable named tempf and initialize it with the temperature.
 //Declare another Double variable named tempc.
 //2. Convert the temperature to Celsius using the formula provided.
-//  C =（F - 32）/ 1.8
+// C = (F - 32) /1.8
 //Store the result in tempc.
 //3. Display the result using string interpolation. Output exactly like so:
 //The temp is [tempc] degrees Celsius.
-var tempf: Double = 70.0
-var tempc: Double
 // Write your code below 🌡️
-tempc = (tempf - 32) / 1.8
-print("The temp is \(tempc) degrees Celsius.")
+
+
+print("===============================================================")
+print("=============================Review============================")
+print("===============================================================")
+//Instructions
+//1. Optional: The body mass index (BMI) is commonly used by health and nutrition professionals to estimate human body fat in populations.
+//It is computed by taking the individual's weight in kilograms (kg) and dividing it by the square of their height in meters (m2):
+//
+//Complete the BMI.swift program which calculates and prints an individual's BMI. Store a weight, height, and BMI calculation in variables then print the BMI to the console.
+//(To skip, just click Run.)
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("|||||||||||||||||||======0010a.Conditionals======||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
+print("===============================================================")
+print("==================Introduction to Conditionals ================")
+print("===============================================================")
+//Instructions
+//Take a look at our Swifty Donut 🍩 factory on the right. Notice how conditionals are responsible for all the processes within this factory. If a donut should be chocolate flavored, it lands on one conveyor belt, if it's strawberry, it lands on another and so on!
+//What's another conditional you can think of used in this factory?
 print("===============================================================")
 print("==========================If Statement=========================")
 print("===============================================================")
@@ -97,11 +116,8 @@ print("===============================================================")
 //3.  Reassign the value of learningToCode to false after the initial variable declaration but before the if statement.
 //Observe what happens when you run the program. Did the message get printed?
 // Write your code below
-var learningToCode = true
-//learningToCode = false
-if learningToCode {
-  print("Don't forget to take breaks! You got this")
-}
+
+
 print("===============================================================")
 print("=========================Else Statement========================")
 print("===============================================================")
@@ -109,15 +125,11 @@ print("===============================================================")
 //1.  In Glasses.swift, we'll create an if/else that prints an emoji representing you!
 //First, declare a variable, wearGlasses. Assign it a Boolean value true or false depending on if you wear glasses.
 //2.  Below wearGlasses, create an if/else statement that:
-//•  ﻿﻿prints, "I wear glasses" if true
-//•  ﻿﻿prints, "I don't wear glasses" otherwise
+//•  ﻿﻿prints, "I wear glasses 😎" if true
+//•  ﻿﻿prints, "I don't wear glasses 😊" otherwise
 // Write your code below 👓
-var wearGlasses = false
-if wearGlasses {
-  print("I wear glasses 😎")
-} else {
-  print("I don't wear glasses 😊")
-}
+
+
 print("===============================================================")
 print("======================Comparison Operators=====================")
 print("===============================================================")
@@ -128,13 +140,9 @@ print("===============================================================")
 //2.  Add an else statement. Within the body of your else statement, print a message for the other winning team.
 let tuneSquadPoints = 78
 let monstarsPoints = 77
-
 // Write your code below 🏀
-if tuneSquadPoints < monstarsPoints {
-  print("Monstars You Won!")
-} else {
-  print("tuneSquad You Won!")
-}
+
+
 print("===============================================================")
 print("=======================Else If Statements======================")
 print("===============================================================")
@@ -146,25 +154,14 @@ print("===============================================================")
 //•  ﻿﻿The if and else if statements should check if abbreviation is equal to, ==, an abbreviation stored in the comment.
 //•  ﻿﻿The if and else if statement code blocks should each contain a print statement with the corresponding language. For example, if the abbreviation is FR, the String printed should be French.
 //•  Use an else statement after the last else if statement that prints the message, Abbreviation not found.
-/*English: En
+/*English: Eng
  French: Fr
-Spanish: Sp
-Chinese: Ch
-Tagalog: Ta*/
-
+Spanish: Spa
+Chinese: Chi
+Tagalog: Tag*/
 // Write your code below 🗽
-var abbreviation = "Fr"
-if abbreviation == "En" {
-  print("English")
-} else if abbreviation == "Fr" {
-  print("French")
-} else if abbreviation == "Sp" {
-  print("Spanish")
-} else if abbreviation == "Ta" {
-  print("Chinese")
-} else {
-  print("Tagalog")
-}
+
+
 print("===============================================================")
 print("==================Ternary Conditional Operator=================")
 print("===============================================================")
@@ -173,14 +170,14 @@ print("===============================================================")
 //On the following line, rewrite the conditional in ternary format.
 var windy = true
 
-//if windy {
-//print("Sails up")
-//} else {
-//print("Motor on")
-//}
-
+if windy {
+print("Sails up")
+} else {
+print("Motor on")
+}
 // Write your code below ⛵️
-windy ? print("Sails up") : print("Motor on")
+
+
 print("===============================================================")
 print("========================Switch Statement=======================")
 print("===============================================================")
@@ -188,30 +185,23 @@ print("===============================================================")
 //1.  In Superheroes.swift, we have a series of else if statements that match a superhero's secret identity to their superhero name.
 //Rewrite this conditional in switch statement format.
 //2.  Following the switch statement, print superheroName.
-var secretIdentity = "Prince T'Challa"
+var secretIdentity = "Tony Stark"
 var superheroName: String
 
-//if secretIdentity == "Tony Stark" {
-//superheroName = "Iron Man"
-//} else if secretIdentity == "Natasha Romanoff" {
-//superheroName = "Black Widow"
-//} else if secretIdentity == "Prince T'Challa" {
-//superheroName = "Black Panther"
-//} else if secretIdentity == "Thor" {
-//superheroName = "Thor"
-//} else {
-//superheroName = "Unknown"
-//}
-
-// Write your code below
-switch secretIdentity {
-case "Tony Stark": superheroName = "Iron Man"
-case "Natasha Romanoff": superheroName = "Black Widow"
-case "Prince T'Challa": superheroName = "Black Panther"
-case "Thor": superheroName = "Thor"
-default: superheroName = "Unknown"
+if secretIdentity == "Tony Stark" {
+superheroName = "Iron Man"
+} else if secretIdentity == "Natasha Romanoff" {
+superheroName = "Black Widow"
+} else if secretIdentity == "Prince T'Challa" {
+superheroName = "Black Panther"
+} else if secretIdentity == "Thor" {
+superheroName = "Thor"
+} else {
+superheroName = "Unknown"
 }
-print(superheroName)
+// Write your code below
+
+
 print("===============================================================")
 print("===============Switch Statement: Interval Matching=============")
 print("===============================================================")
@@ -226,17 +216,11 @@ print("===============================================================")
 //Add a default statement that assigns an empty string, "" to villain.
 //3.  After the switch statement, print villain.
 //4.  Continue practicing in the editor by testing your code with different values for episode or adding more cases to the switch statement. Make sure it's working as expected before moving on.
-var episode = 3
+var episode = 8
 var villain: String
-
 // Write your code below 🦹
-switch episode {
-case 1...3: villain = "Emperor Palpatine"
-case 4...6: villain = "Darth Vader"
-case 7...9: villain = "Kylo Ren"
-default: villain = ""
-}
-print(villain)
+
+
 print("===============================================================")
 print("================Switch Statement: Compound Cases===============")
 print("===============================================================")
@@ -245,19 +229,13 @@ print("===============================================================")
 //First, create a switch statement that accepts planet as its expression. Keep the body of the switch statement empty for now.
 //Note: You will see an error in the terminal on the right, but it will go away in the next step when we add case statements!
 //2.  Use the following information to set up the case statements within the switch:
-//•  ﻿﻿"Earth", "Mercury", "Venus" and "Mars" fall under the "Terrestrial planet" category.
+//•  ﻿﻿"Earth", "Mercury", "Venus", and "Mars" fall under the "Terrestrial planet" category.
 //•  ﻿﻿"Saturn", "Jupiter", "Uranus" and "Neptune" fall under the "Jovian planet" category.
 //•  ﻿﻿Each case should contain a print() statement that outputs the planet's category.
 //Lastly, use a default statement that outputs Unknown planet.
 //3.  Continue practicing in the editor by testing your code with different values for planet. Make sure it's working as expected before moving on.
-var planet = "Venus"
+var planet = "Earth"
 // Write your code below 🪐
-switch planet {
-case "Earth", "Mercury", "Venus", "Mars": print("Terrestrial planet")
-case "Saturn", "Jupiter", "Uranus", "Neptune": print("Jovian planet")
-default: print("Unknown planet")
-}
-
 
 
 //Terrestrial planet
@@ -270,23 +248,30 @@ print("===============================================================")
 //Note: You will see an error in the terminal on the right, but it will go away in the next step when we add case statements!
 //  2.  Within the code block of the switch statement, set up the following cases:
 //  •  ﻿﻿Case 1: Declare the temporary variable x and use the where clause to check if the value is divisible by 2. Print, "Composite"
-//  •  ﻿﻿Case 2: Declare the temporary variable × and use the where clause to check if the value is divisible by 3. Print, "Composite"
+//  •  ﻿﻿Case 2: Declare the temporary variable × and use the where clause to check if the value is divisible by 3. Print, “Composite"
 //The default statement should print, "Prime".
 //  3.  Awesome work! This step is optional so feel free to hit Run if you'd like to skip it and move on to the next the exercise.
 //Challenge:
 //Instead of manually assigning and testing different values for wholeNumber, we can use .random() to generate one for us.
 //  •  ﻿﻿Set up the .random() method to accept a range of Integers between 10 and 20. Assign this calculation to wholeNumber.
 //  •  ﻿﻿Use a print() statement below the variable to output the value of wholeNumber.
-var wholeNumber = 7
+var wholeNumber = 15
 // Write your code below
-switch wholeNumber {
-case let x where x % 2 == 0: print("Composite")
-case let x where x % 3 == 0: print("Composite")
-default: print("Prime")
-}
+
+
+print("===============================================================")
+print("=============================Review============================")
+print("===============================================================")
+//Instructions
+//Click Up Next when you're ready to move on.
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("||||||||||||||||======0010b. Logical Operators======|||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
+print("===============================================================")
+print("================Introduction to Logical Operators==============")
+print("===============================================================")
+//Instructions
+//If you're ready && excited to learn more about logical operators, click Next!
 print("===============================================================")
 print("======================Logical AND Operator=====================")
 print("===============================================================")
@@ -299,9 +284,8 @@ print("===============================================================")
 var midnight = true
 var date = "January 1, 2020"
 // Write your code below 🎊
-if midnight && date == "January 1, 2020" {
-  print("It's the start of a new decade!")
-}
+
+
 print("===============================================================")
 print("=======================Logical OR Operator=====================")
 print("===============================================================")
@@ -312,11 +296,8 @@ print("===============================================================")
 //2.  Below the variable declarations, create an if statement that determines the Boolean result of carInMotion OR insideCar in its condition.
 //Within the code block of the if statement, add a print statement that outputs Safety first! Buckle up.
 // Write your code below 🚘
-var carInMotion = false
-var insideCar = true
-if carInMotion || insideCar {
-  print("Safety first! Buckle up.")
-}
+
+
 print("===============================================================")
 print("======================Logical NOT Operator=====================")
 print("===============================================================")
@@ -328,9 +309,11 @@ print("===============================================================")
 var feelingWell = true
 
 if !feelingWell {
-  print (" Have some vitamins and take care of yourself 🤒")
+// add a print() statement here
+
 } else {
-  print (" Embrace the day!")
+// add another print() statement here
+
 }
 print("===============================================================")
 print("===================Combining Logical Operators=================")
@@ -349,12 +332,8 @@ var lessThanThreeTries = true
 var accessThroughTouchID = true
 var unlock: Bool
 // Write your code below 🔒
-if (correctPassword && lessThanThreeTries) || accessThroughTouchID {
-  unlock = true
-} else {
-  unlock = false
-}
-print(unlock)
+
+
 print("===============================================================")
 print("=================Controlling Order of Execution================")
 print("===============================================================")
@@ -366,42 +345,39 @@ print("===============================================================")
 //Note: You will see an error in the terminal on the right if there are still any _ _ _ present in your code. The error should go away after you’ve replaced each _ _ _ with an operator.
 // Add the correct logical operator in place of ___ to make each variable true
 
-let bool1 = (true || false) || false || false
+//let bool1 = (true ___ false) || false || false
+//
+//let bool2 = !true ___ (false && false || true)
+//
+//let bool3 = !(false && true) ___ (false || false)
+//
+//
+//print(bool1) // should be true
+//print(bool2) // should be true
+//print(bool3) // should be false
 
-let bool2 = !true || (false && false || true)
-
-let bool3 = !(false && true) && (false || false)
-
-
-print(bool1) // should be true
-print(bool2) // should be true
-print(bool3) // should be false
-
+print("===============================================================")
+print("=============================Review============================")
+print("===============================================================")
+//Instructions
+//When you're ready to move on, click Up Next.
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("||||||||||||||||||||||======0010b. Loops======|||||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
+print("===============================================================")
+print("=========================What are Loops?=======================")
+print("===============================================================")
+//Instructions
+//Look over (and over) the provided diagram.
+//Then, go to the next exercise to get looped in!
 print("===============================================================")
 print("=========================Repeating Tasks=======================")
 print("===============================================================")
 //Instructions
 //1.  Using 16 print() statements, print out: "This can be so much easier with loops!"
 // Add your code below 😈
-print("This can be so much easier with loops!")
-print("This can be so much easier with loops!")
-print("This can be so much easier with loops!")
-print("This can be so much easier with loops!")
-print("This can be so much easier with loops!")
-print("This can be so much easier with loops!")
-print("This can be so much easier with loops!")
-print("This can be so much easier with loops!")
-print("This can be so much easier with loops!")
-print("This can be so much easier with loops!")
-print("This can be so much easier with loops!")
-print("This can be so much easier with loops!")
-print("This can be so much easier with loops!")
-print("This can be so much easier with loops!")
-print("This can be so much easier with loops!")
-print("This can be so much easier with loops!")
+
+
 print("===============================================================")
 print("=========================The for-in Loop=======================")
 print("===============================================================")
@@ -413,7 +389,6 @@ print("===============================================================")
 //2.  We want our for-in loop to help us print out the last part of the Happy Birthday song.
 //Inside the block of the loop add a print() statement to print out:
 //Are you [age]?
-
 //Where [age] is replaced by the value of age in its current iteration.
 // The start of the Happy Birthday song 🎂
 print("Happy Birthday to you.")
@@ -422,9 +397,6 @@ print("Happy Birthday dear Codecademy Userrrr.")
 print("Happy Birthday to you!!")
 print(".......................")
 // Add your code below 🥳
-for age in 1...45 {
-  print("Are you \(age)?")
-}
 
 
 
@@ -437,12 +409,13 @@ print("===============================================================")
 //•  to: 0
 //•  by: -1
 //That’s right, we can even go backward!
-print("We're starting in...")
-
+//print("We're starting in...")
+//
 // Edit the range 1...3 in the loop to use stride() 🏁
-for num in stride(from: 3, to: 0, by: -1){
+for num in 1...3 {
 print(num)
 }
+
 print("GO!")
 print("===============================================================")
 print("====================Iterating Through Strings==================")
@@ -455,11 +428,9 @@ print("===============================================================")
 //•  Inside the if statement, use print() to print out the character (char).
 var funFact = "exlxephxxxaxnts xcaxxn'xxt xxxjxumxpx."
 // Add your code below 🐘
-for char in funFact {
-  if char != "x" {
-    print(char)
-  }
-}
+
+
+
 print("===============================================================")
 print("========================Using Underscore=======================")
 print("===============================================================")
@@ -469,9 +440,9 @@ print("===============================================================")
 //•  It should loop through the range 1...15.
 //•  During each iteration, print out a string to remind you of something. E.g.: "Buy eggs from the market".
 // Add your code below 📝
-for _ in 1...15 {
-  print("Buy eggs from the market")
-}
+
+
+
 print("===============================================================")
 print("======================The continue Keyword=====================")
 print("===============================================================")
@@ -482,10 +453,10 @@ print("===============================================================")
 //•  Inside the body of the if statement, the continue keyword.
 for num in 1...9 {
 // Add your code below 🔢
-  switch num {
-  case 1, 3, 5, 7, 9: continue
-  default: print(num)
-  }
+  
+
+ 
+print(num)
 }
 
 print("Who do we appreciate?")
@@ -500,16 +471,13 @@ print("===============================================================")
 //•  Inside the if body, print out the "It's [guessedNum]!!" and replace [guessedNum] with the actual value of guessedNum.
 //•  After the print() statement, add a break keyword.
 //After you pass this step, run the program a few times to get a sense of when break is exiting the loop.
-for _ in 1...5 {
-  var guessedNum = Int.random(in: 1...15)
-  for counter in 1...15 {
-  // Add your code below 🤔
-    if counter == guessedNum {
-      print("It's \(guessedNum)!!")
-      break
-    }
-  print("Is it \(counter)?")
-  }
+var guessedNum = Int.random(in: 1...15)
+for counter in 1...15 {
+// Add your code below 🤔
+
+
+ 
+print("Is it \(counter)?")
 }
 print("===============================================================")
 print("===========================While Loop==========================")
@@ -526,25 +494,27 @@ print("===============================================================")
 //You guessed [guess], and the number was [magicNum].
 //
 //Where [guess] and [magicNum] are replaced by the actual values of guess and magicNum.
-for _ in 1...5 {
-  var guess = Int.random(in: 1...10)
-  var magicNum = Int.random(in: 1...10)
-  // Add your code here ✨
-  while guess != magicNum {
-    guess = Int.random(in: 1...10)
-    magicNum = Int.random(in: 1...10)
-    print("You guessed \(guess), and the number was \(magicNum).")
-  }
-  print("You're right it was \(guess)!")
-}
+var guess = Int.random(in: 1...10)
+var magicNum = Int.random(in: 1...10)
+// Add your code here ✨
 
 
 
-
-
+print("You're right it was \(guess)!")
+print("===============================================================")
+print("=============================Review============================")
+print("===============================================================")
+//Instructions
+//Look over (and over) the provided diagram.
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("||||||||||||||||||||||======0011A. Arrays======||||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
+print("===============================================================")
+print("=====================Introduction to Arrays====================")
+print("===============================================================")
+//Instructions
+//Take a look at bellow for a preview of an array. This one in particular stores five cartoon characters.
+//Click Next to continue.
 print("===============================================================")
 print("=====================Creating an Empty Array===================")
 print("===============================================================")
@@ -555,11 +525,9 @@ print("===============================================================")
 //2.  Create an empty array named subwayChild of the type Int.
 //Then print it out.
 // Write your code below 🚇
-var subwayChildA = [Int]()
 
-var longhand: Array<String>
-var shorthand: [String]
-print(subwayChildA)
+
+
 print("===============================================================")
 print("====================Creating an Array Literal==================")
 print("===============================================================")
@@ -574,10 +542,9 @@ print("===============================================================")
 //2.  Initialize subwayChild with 400, 600, and 750. This time, be explicit with the type.
 //Then print it out.
 // Write your code below 🚇
-var subwayAdult = [800, 1200, 1500]
-print(subwayAdult)
-var subwayChild = [400, 600, 750]
-print(subwayChild)
+
+
+
 print("===============================================================")
 print("==============================Index============================")
 print("===============================================================")
@@ -586,7 +553,9 @@ print("===============================================================")
 //Print the current temperature using its index.
 var temperature: [Int] = [66, 68, 72, 76, 80, 82, 85, 85, 84, 82, 81, 78, 74, 73, 72, 71, 70, 69, 68, 65, 63, 62, 61, 63]
 // Write your code below 🌴
-print(temperature[0])
+
+
+
 print("===============================================================")
 print("=========================.count Property=======================")
 print("===============================================================")
@@ -595,7 +564,9 @@ print("===============================================================")
 //Print the size of the array using .count.
 var countingRhyme = ["eeny", "meeny", "miny", "moe", "catch", "a", "coder", "by", "the", "toe", "if", "they", "debug", "let", "them", "go", "eeny", "meeny", "miny", "moe"]
 // Write your code below 🐛
-print(countingRhyme.count)
+
+
+
 print("===============================================================")
 print("================.append() Method==============")
 print("===============================================================")
@@ -609,9 +580,9 @@ var resolutions = ["play more music 🎸",
                  "read more books 📚",
                  "drink more water 💧"]
 // Write your code below 💪
-resolutions.append("swim in tropical weather 🥽")
-resolutions += ["beach umbrellas 🏖️"]
-print(resolutions)
+
+
+
 print("===============================================================")
 print("================.insert() and .remove() Methods==============")
 print("===============================================================")
@@ -623,9 +594,9 @@ print("===============================================================")
 //Print dna to find out.
 var dna = ["ATG", "ACG", "GAA", "TAT"]
 // Write your code below 🧬
-dna.insert("GTG", at: 3)
-dna.remove(at: 0)
-print(dna)
+
+
+
 print("===============================================================")
 print("================Iterating Over an Array==============")
 print("===============================================================")
@@ -639,15 +610,26 @@ print("===============================================================")
 //4.  Finally, print the value of total.
 var receipt = [12.00, 3.75, 6.50, 19.99]
 // Write your code below 🧾
-var totalA = 0.0
-for item in receipt {
-  totalA += item
-}
-totalA *= 1.08875
-print(totalA)
+
+
+
+print("===============================================================")
+print("=============================Review============================")
+print("===============================================================")
+//Instructions
+//Optional: Write a Swift program to find the sum of even numbers and the product of odd numbers in an array.
+//For example, suppose we have an array that is [2, 4, 3, 6, 1, 9], then the program should output:
+//Sum of even numbers is 12
+//Product of odd numbers is 27
+//
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("|||||||||||||||||||||||======0011B. Sets======|||||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
+print("===============================================================")
+print("================Introduction to Sets==============")
+print("===============================================================")
+//Instructions
+//When you're all set, click Next to continue.
 print("===============================================================")
 print("================Creating a Set==============")
 print("===============================================================")
@@ -656,11 +638,9 @@ print("===============================================================")
 //2.  Create a second set called vowels that contains the following values: "A", "E", "I", "O", "U".
 //Output vowels to the terminal.
 // Add your code below 🔤
-var consonants = Set<Character>()
-var vowels: Set = ["A", "E", "I", "O", "U"]
-var longhandSet: Set<Character>
 
-print(vowels)
+
+
 print("===============================================================")
 print("================.count and .isEmpty==============")
 print("===============================================================")
@@ -672,14 +652,9 @@ print("===============================================================")
 //We have [X] pairs of socks.
 //
 //Replace [X] with the number of items in sockDrawer using .count.
-//var sockDrawer = Set<String>()
-var sockDrawer:Set = ["Red Polka Dots", "Blue Stripes", "Plain Whites"]
+var sockDrawer: Set = ["Red Polka Dots", "Blue Stripes", "Plain Whites"]
 // Add your code below 🧦
-if sockDrawer.isEmpty {
-  print("Time to add some more socks!")
-} else {
-  print("We have \(sockDrawer.count) pairs of socks.")
-}
+
 
 
 print("===============================================================")
@@ -692,8 +667,9 @@ print("===============================================================")
 var friends: Set = ["Harry", "Ron"]
 print("There are some things you can't share without ending up liking each other, and defeating a twelve-foot mountain troll is one of them.")
 // Add your code below ✨
-friends.insert("Hermione")
-friends.insert("Ron")
+
+
+
 print("Friends: \(friends)")
 print("===============================================================")
 print("================Removing Elements==============")
@@ -707,8 +683,9 @@ print("===============================================================")
 //Print the value of planets again.
 var planets: Set = ["Earth", "Jupiter", "Mars", "Neptune", "Saturn", "Venus", "Uranus", "Mercury", "Pluto"]
 // Write your code below ⭐
-planets.remove("Pluto")
-planets.removeAll()
+
+
+
 print(planets)
 print("===============================================================")
 print("================Checking For Elements==============")
@@ -720,11 +697,9 @@ print("===============================================================")
 //•  In the else, print "We do not serve that coffee flavor here."
 var coffeeFlavors: Set = ["Caramel", "Mocha", "Pumpkin Spice", "Vanilla", "Blueberry"]
 // Write your code below 🍵
-if coffeeFlavors.contains("Blueberry") {
-  print("One blueberry coffee coming right up.")
-} else {
-  print("We do not serve that coffee flavor here.")
-}
+
+
+
 print("===============================================================")
 print("================Iterating Through a Set==============")
 print("===============================================================")
@@ -737,10 +712,7 @@ print("===============================================================")
 var thingsToPack: Set = ["Bathing Suit", "Clothes", "Sunglasses", "Sunscreen", "Favorite Book", "Phone Charger"]
 var suitcase = Set<String>()
 // Add your code below 🌴
-for item in thingsToPack {
-  suitcase.insert(item)
-}
-print(suitcase)
+
 
 
 print("===============================================================")
@@ -753,8 +725,6 @@ print("===============================================================")
 var swim: Set = ["Turtles", "Ducks", "Puffins", "Shark"]
 var fly: Set = ["Humming birds", "Bats", "Ducks", "Puffins"]
 // Add your code below 🦆
-var swimAndFly: Set = swim.intersection(fly)
-print(swimAndFly)
 
 
 
@@ -764,12 +734,10 @@ print("===============================================================")
 //Instructions
 //1.  In Alphabet.swift, create a set called alphabet that uses .union() to combine the values of the sets consonants and vowels.
 //Use print() to output alphabet.
-var consonantsB: Set = ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"]
-var vowelB: Set = ["A", "E", "I", "O", "U"]
+var consonants: Set = ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"]
+var vowels: Set = ["A", "E", "I", "O", "U"]
 // Write your code below 🔡
 
-var alphabet: Set = consonantsB.union(vowelB)
-print(alphabet.sorted())
 
 
 print("===============================================================")
@@ -782,9 +750,6 @@ print("===============================================================")
 var oscarWinners: Set = ["Heath Ledger", "Rita Moreno", "Audrey Hepburn", "John Legend"]
 var emmyWinners: Set = ["Peter Dinklage", "John Legend", "Audrey Hepburn", "Rita Moreno"]
 // Add your code below 🏆
-var difference: Set = oscarWinners.symmetricDifference(emmyWinners)
-print(difference.sorted())
-
 
 
 
@@ -798,13 +763,24 @@ print("===============================================================")
 var foodEmojis: Set = ["🥕", "🍇", "🌶️", "🍒", "🍎", "🥦"]
 var fruitEmojis: Set = ["🍇", "🍎", "🍒"]
 // Add your code below 🥗
-var veggieEmojis: Set = foodEmojis.subtracting(fruitEmojis)
-print(veggieEmojis.sorted())
 
 
+
+print("===============================================================")
+print("=============================Review============================")
+print("===============================================================")
+//Instructions
+//When you're all set, click Next to continue.
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("|||||||||||||||||||======0011C. Dictionaries======|||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
+print("===============================================================")
+print("================Introduction to Dictionaries==============")
+print("===============================================================")
+//Instructions
+//Take a look at the image above.
+//We have a collection of keys and chests. Each key is associated with a treasure chest of the same color. In the center, there is a locked red chest that is holding something valuable. We are only able to access the treasure when we use the associated red key to unlock it.
+//When you're ready, click Next to learn how to create a dictionary.
 print("===============================================================")
 print("================Creating an Empty Dictionary==============")
 print("===============================================================")
@@ -812,10 +788,8 @@ print("===============================================================")
 //1.  Declare an empty dictionary called emptyLiteral with String type keys and Int type values using dictionary literal syntax.
 //2.  Declare an empty dictionary called emptyInitializer with String type keys and Bool type values using initializer syntax method.
 // Write your code below 😶
-var emptyLiteral: [String: Int] = [:]
-var emptyInitializer = [String: Bool]()
-var longhandDictionary: Dictionary<String, Int>
-var shorthandDictionary: [String: Int]
+
+
 
 print("===============================================================")
 print("================Creating a Dictionary Literal==============")
@@ -831,8 +805,7 @@ print("===============================================================")
 //3.  Use print() to output the content of roleModels.
 //Run the program a few times. Did the order in which the elements appear change?
 // Write your code below 👇
-var roleModels: [String: String] = ["Mr. Rogers": "Fred McFeely Rogers", "The Crocodile Hunter": "Stephen Robert Irwin", "Bill Nye the Science Guy": "William Sanford Nye"]
-print(roleModels)
+
 
 
 print("===============================================================")
@@ -845,8 +818,6 @@ print("===============================================================")
 //•  "Toy Story": 1995
 //Print the value of movieYears to the terminal.
 // Write your code below 🍿
-var movieYears = ["Finding Nemo": 2003, "Toy Story": 1995]
-print(movieYears)
 
 
 
@@ -865,9 +836,8 @@ var teaSteepingTemperature = [
 "White": 185
 ]
 // Add your code below 🍵
-teaSteepingTemperature["Green"] = 185
-teaSteepingTemperature["Rooibos"] = 212
-print(teaSteepingTemperature)
+
+
 
 print("===============================================================")
 print("================Updating Elements==============")
@@ -885,8 +855,6 @@ var abbreviations = [
 "GJOYC": "Great Job On Your Code"
 ]
 // Add your code below 🆘
-abbreviations["LOL"] = "Laugh Out Loud"
-abbreviations.updateValue("Be Right Back", forKey: "BRB")
 
 
 
@@ -909,8 +877,8 @@ var rainbowHex = [
 "violet": "#ee82ee"
 ]
 // Write your code below 🌈
-rainbowHex["maroon"] = nil
-rainbowHex.removeValue(forKey: "pink")
+
+
 
 print(rainbowHex)
 print("===============================================================")
@@ -929,11 +897,7 @@ var numberOfSides = [
 "triacontagon": 30
 ]
 // Add your code below 🔺
-if numberOfSides.isEmpty {
-  print("This dictionary has no elements in it.")
-} else {
-  print("the number of elements in in numberOfSides is \(numberOfSides.count)")
-}
+
 
 
 print("===============================================================")
@@ -945,7 +909,7 @@ print("===============================================================")
 //2.  Modify your code to unwrap the value of sunflowerScientific by appending ! to the code written in Instruction 1.
 //3.  Use an if-let statement to assign the value associated with the key "Lily" to a variable called lilyScientific.
 //Inside the body of the if statement, print() the following statement:
-//A lily is referred to as a \(lilyScientific) in the sciencecommunity.
+//A lily is referred to as a \(lilyScientific) in the science community.
 var flowerNames = [
 "Lily": "Lilium",
 "Sunflower": "Helianthus",
@@ -953,11 +917,7 @@ var flowerNames = [
 "Daffodil": "Narcissus"
 ]
 // Add your code below 🌼
-var sunflowerScientific = flowerNames["Sunflower"]
-print(sunflowerScientific!)
-if let lilyScientific  = flowerNames["Lily"] {
-  print("A lily is referred to as a \(lilyScientific) in the science community.")
-}
+
 
 
 print("===============================================================")
@@ -978,9 +938,9 @@ var mythology = [
 "Poseidon": "Neptune",
 "Demeter": "Ceres"]
 // Write your code below 🏛️
-for (greekName, romanName) in mythology {
-  print("\(greekName) is also known as \(romanName)")
-}
+
+
+
 print("===============================================================")
 print("================Using .keys and .values==============")
 print("===============================================================")
@@ -998,9 +958,8 @@ var lemonadeStand = [
 ]
 var total: Double = 0.0
 // Add your code below 🍋
-for monthlyProfit in lemonadeStand.values {
-  total += monthlyProfit
-}
+
+
 
 print("Total profits are \(total)")
 print("===============================================================")
@@ -1011,6 +970,11 @@ print("===============================================================")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("|||||||||||||||||||||======0100. Functions======|||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
+print("===============================================================")
+print("================Introduction to Functions==============")
+print("===============================================================")
+//Instructions
+//Click Next, when you're ready to get started.
 print("===============================================================")
 print("================Defining a Function==============")
 print("===============================================================")
@@ -1026,6 +990,8 @@ print("===============================================================")
 //Remember, you shouldn't see any output in the terminal at this point.
 // Write your code below 🚇
 
+
+
 print("===============================================================")
 print("================Calling a Function==============")
 print("===============================================================")
@@ -1035,6 +1001,8 @@ print("===============================================================")
 //•  ﻿﻿mySpecialRecipe() should contain print() statements with the instructions for your recipe.
 //2.  Below the function definition, call the function and see your recipe in the terminal.
 // Write your code below 🍲
+
+
 
 print("===============================================================")
 print("================Returning a Value==============")
@@ -1049,8 +1017,9 @@ print("===============================================================")
 //3.  Call the function and wrap it in a print() statement to see its output.
 let weight = 70.0 // in Kilograms
 let height = 1.73 // in Meters
-
 // Write your code below 💪
+
+
 
 print("===============================================================")
 print("================Parameters and Arguments==============")
@@ -1063,6 +1032,8 @@ print("===============================================================")
 //On the following line, print the value of result.
 // Write your code below 🥧
 
+
+
 print("===============================================================")
 print("================Multiple Parameters==============")
 print("===============================================================")
@@ -1072,13 +1043,15 @@ print("===============================================================")
 //•  ﻿﻿timeToDestination() should return a value of the type Int.
 //Note: You will see an error in the terminal on the right, but it will go away in the next step when we populate the body of the function with code.
 //2.  Within the function body, declare the constant, time and use the following formula to assign it a mathematical expression that determines the length of a flight:
-// {time = distance / speed}
+//  time = distance / speed
 //Following the variable declaration, return time.
 //3.  Assume the passenger is flying on a superjumbo jet - the A380 from Dubai to New York! Call the function and pass in the following information about the flight:
 //•  ﻿﻿The distance between Dubai and New York is 6836 miles. Pass in 6836 as the argument for distance.
 //•  ﻿﻿The average cruising speed is 560 miles per hour. Pass in 560 as the argument for speed.
 //Wrap the function call in a print() statement.
 // Write your code below 🛫
+
+
 
 print("===============================================================")
 print("================Argument Labels==============")
@@ -1090,6 +1063,8 @@ print("===============================================================")
 //4.  Call the addFriend(named:) method three times to add the following friends: "Alice", "Bob", and "Cindy".
 //5.  Print the contents of the friendsList variable.
 // Write your code below 🏷️
+
+
 
 print("===============================================================")
 print("================Omitting Argument Labels==============")
@@ -1112,8 +1087,9 @@ print("===============================================================")
 //4.  Wrap the function call in a print() statement to output the total price.
 let adults = 2
 let students = 15
-
 // Write your code below 🏛️
+
+
 
 print("===============================================================")
 print("================Returning Multiple Values==============")
@@ -1130,6 +1106,8 @@ print("===============================================================")
 //“My favorite [cuisine name] dish is [cuisine dish]!”
 // Write your code below 😋
 
+
+
 print("===============================================================")
 print("================Implicit Return==============")
 print("===============================================================")
@@ -1140,6 +1118,8 @@ print("===============================================================")
 //Wrap the function call in a print() statement to see the function's output.
 //3.  Remove the return keyword from within the function body. Your function should still execute and return the correct remainder using implicit return.
 // Write your code below ➗
+
+
 
 print("===============================================================")
 print("================Default Parameters==============")
@@ -1158,6 +1138,8 @@ print("===============================================================")
 //Wrap this function call in a print() statement.
 // Write your code below 🎫
 
+
+
 print("===============================================================")
 print("================Variadic Parameters==============")
 print("===============================================================")
@@ -1172,13 +1154,13 @@ print("===============================================================")
 //  •  ﻿﻿Name the placeholder, time
 //  •  ﻿﻿Within the body of the loop, use += to add and reassign the value of time to total.
 //Below the for/in loop, return the following expression:
-//total / times.count
-//
+//  total / times.count
 //  3.  Finally, call the function with the following values for times:
 //183, 176, 180, 176, 184, 179, 181, 180, 172, 178.
-//
 //These values represent the duration of the first ten songs in the album Eurovision Song Contest: Tel Aviv
 // Write your code below 🎶
+
+
 
 print("===============================================================")
 print("================In-Out Parameters==============")
@@ -1197,13 +1179,27 @@ print("===============================================================")
 //•  ﻿﻿For the state parameter, the argument should be &currentGeneratorState. The function will execute and modify the value of the currentGeneratorState as needed.
 //Lastly, print the value of currentGeneratorState to see the change.
 var currentGeneratorState = "Off"
-
 // Write your code below  💡
 
 
+
+print("===============================================================")
+print("=============================Review============================")
+print("===============================================================")
+//Instructions
+//Click Up Next when you're ready to move on.
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("||||||||||||||||||||||======101b. Structs======||||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
+print("===============================================================")
+print("=======================What is a Structure=====================")
+print("===============================================================")
+//Instructions
+//Look over the provided GIF.
+//The blueprint (Structure) shows the possible appearance of a constructed 2-floor house with a triangular roof.
+//The first instance follows the blueprint exactly.
+//The second instance removes one level and only has a single floor.
+//The third instance adds one level and has three floors.
 print("===============================================================")
 print("================Creating a Structure==============")
 print("===============================================================")
@@ -1213,10 +1209,8 @@ print("===============================================================")
 //•  title with type String.
 //•  pages with type Int.
 // Write your code below: 📚
-struct Book {
-  var title: String
-  var pages: Int
-}
+
+
 
 print("===============================================================")
 print("================Default Property Values==============")
@@ -1227,8 +1221,9 @@ print("===============================================================")
 //•  pages to be 0.
 struct BookB {
 // Add your code below 📚
-var title = ""
-var pages = 0
+
+
+
 }
 print("===============================================================")
 print("================Creating an Instance==============")
@@ -1240,7 +1235,7 @@ var pages = 0
 var title = ""
 }
 // Write your code below: 📚
-var myFavBook = BookC()
+
 
 
 print("===============================================================")
@@ -1257,13 +1252,12 @@ struct BookD {
 var pages = 0
 var title = ""
 }
-var myFavBookD = BookD()
+
+var myFavBook = BookD()
 // Write your code below: 📚
-print(myFavBookD.pages)
-myFavBookD.pages = 640
-print(myFavBookD.pages)
-myFavBookD.title = "Star Wars"
-print(myFavBookD.title)
+
+
+
 print("===============================================================")
 print("================The Init() Method==============")
 print("===============================================================")
@@ -1276,14 +1270,10 @@ struct BookE {
 var title: String
 var pages: Int
 // Add your code below 📚
-  init(title: String, pages: Int) {
-    self.title = title
-    self.pages = pages
-  }
+
+
+
 }
-//=============================================================================================================================================================================================
-var theHobbit = BookE(title: "The Hobbit", pages: 300)
-print(theHobbit)
 print("===============================================================")
 print("================Memberwise Initialization==============")
 print("===============================================================")
@@ -1297,14 +1287,9 @@ print("===============================================================")
 //•  members with a value of 5.
 //•  isActive with a value of true.
 // Add your code below 🎹 🎸 🥁
-struct Band {
-  var genre: String
-  var members: Int
-  var isActive: Bool
-}
 
-var maroon5 = Band(genre: "pop", members: 5, isActive: true)
-print(maroon5)
+
+
 print("===============================================================")
 print("================Structure Methods==============")
 print("===============================================================")
@@ -1333,20 +1318,13 @@ init(genre: String, members: Int, isActive: Bool) {
   self.isActive = isActive
 }
 // Add your method below 🤘
-  func pumpUpCrowd() -> String {
-    if self.isActive {
-      return "Are you ready to ROCK?"
-    } else {
-      return "..."
-    }
-  }
+
 
 
 }
 // Create your instance below 🎸 🥁
-var fooFighters = BandB(genre: "rock", members: 6, isActive: true)
 
-print(fooFighters.pumpUpCrowd())
+
 
 print("===============================================================")
 print("================Mutating Methods==============")
@@ -1379,20 +1357,16 @@ func pumpUpCrowd() -> String {
   }
 }
 // Add your mutating method below 🔧
-  mutating func changeGenre(newGenre: String) -> String {
-    self.genre = newGenre
-    
-    return self.genre
-  }
+
   
 
 }
 
 var journey = BandC(genre: "jazz", members: 5, isActive: true)
 // Change the genre below 🎸 🔨
-var bandsNewGenre = journey.changeGenre(newGenre: "rock")
 
-print(bandsNewGenre)
+
+
 print("===============================================================")
 print("================New Type==============")
 print("===============================================================")
@@ -1431,11 +1405,9 @@ mutating func changeGenre(newGenre: String) -> String {
 
 var journeyD = BandD(genre: "rock", members: 5, isActive: true)
 // Add your code below 📻
-print(type(of: journeyD))
-print(journeyD)
-var bts: BandD = BandD(genre: "kpop", members: 7, isActive: true)
-print(type(of: bts))
-print(bts)
+
+
+
 print("===============================================================")
 print("================Structures are Value Types==============")
 print("===============================================================")
@@ -1457,13 +1429,21 @@ init(lengthInCm: Double, nestLocation: String) {
 
 var groundFinch = Finch(lengthInCm: 15.0, nestLocation: "Bush")
 // Add your code below 🐦
-var cactusFinch = groundFinch
-cactusFinch.nestLocation = "Cactus"
-print(cactusFinch.nestLocation)
-print(groundFinch.nestLocation)
+
+
+
+print("===============================================================")
+print("================Review==============")
+print("===============================================================")
+//Instructions
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("|||||||||||||||||||||======0101a. Classes======||||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
+print("===============================================================")
+print("================Introduction to Classes==============")
+print("===============================================================")
+//Instructions
+//Press Next to continue.
 print("===============================================================")
 print("================Creating a Class==============")
 print("===============================================================")
@@ -1474,12 +1454,8 @@ print("===============================================================")
 //  •  .rating with a default value of 0.0
 //  •  .delivery with a default value of false
 // Write your code below 🍝
-class Restaurant {
-  var name = ""
-  var type = [""]
-  var rating = 0.0
-  var delivery = false
-}
+
+
 
 print("===============================================================")
 print("================Creating an Instance==============")
@@ -1493,7 +1469,7 @@ print("===============================================================")
 //  •  .rating is 3.5
 //  •  .delivery is true
 //  3.  Let’s print out all four properties of bobsBurgers one by one using print() statements.
-class RestaurantM {
+class Restaurant {
   var name = ""
   var type = [""]
   var rating = 0.0
@@ -1501,18 +1477,7 @@ class RestaurantM {
 }
 // Write your code below 🍝
 
-var bobsBurgers = RestaurantM()
 
-
-bobsBurgers.name = "Bob's Burgers"
-bobsBurgers.type = ["Burgers", "Fast Food"]
-bobsBurgers.rating = 3.5
-bobsBurgers.delivery = true
-
-print(bobsBurgers.name)
-print(bobsBurgers.type)
-print(bobsBurgers.rating)
-print(bobsBurgers.delivery)
 
 print("===============================================================")
 print("================The Init Method==============")
@@ -1531,25 +1496,16 @@ print("===============================================================")
 //  •  delivery: false
 //Make sure to do this in one line!
 //  3.  Let’s print out all four properties of laRatatouille one by one using print().
-//===========================================================================================================================================================================================================================================================================================================================
 class RestaurantB {
   var name = ""
   var type = [""]
   var rating = 0.0
   var delivery = false
   // The init() goes here 🍝
-  init(name: String = "", type: [String] = [""], rating: Double = 0.0, delivery: Bool = false) {
-    self.name = name
-    self.type = type
-    self.rating = rating
-    self.delivery = delivery
-  }
+  
+  
+  
 }
-var laRatatouille = RestaurantB(name: "La Ratatouille", type: ["French"], rating: 4.7, delivery: false)
-print(laRatatouille.name)
-print(laRatatouille.type)
-print(laRatatouille.rating)
-print(laRatatouille.delivery)
 print("===============================================================")
 print("================Inheritance==============")
 print("===============================================================")
@@ -1575,13 +1531,9 @@ class Order {
   }
 }
 // Write your code below 🧾
-class DeliveryOrder: Order {
-  var deliveryFee = 2.0
-  
-}
-var delivery = DeliveryOrder()
-print(delivery.tip)
-print(delivery.deliveryFee)
+
+
+
 print("===============================================================")
 print("================Overriding Methods==============")
 print("===============================================================")
@@ -1608,22 +1560,15 @@ class OrderB {
   }
 }
 
-class DeliveryOrderB: OrderB {
+class DeliveryOrder: OrderB {
   var deliveryFee = 2.0
  // Write your code below 🧾
-  override func printReceipt() {
-    print("Items:     \(items)")
-    print("Subtotal:  $\(subtotal)")
-    print("Tip:       $\(tip)")
-    print("Delivery:  $\(deliveryFee)")
-    print("Total:     $\(total)")
-
-  }
+  
   
   
 }
 
-var order2 = DeliveryOrderB()
+var order2 = DeliveryOrder()
 
 order2.items = ["Ramen", "Diet Coke"]
 order2.subtotal = 14.69
@@ -1657,13 +1602,19 @@ class OrderC {
 var order1 = OrderC(items: ["Chili Fries", "Lemonade"], subtotal: 8.75, tip: 2.0, total: 12.75)
 // Write your code below 🧾
 
-var order8 = order1
-order8.total = 0.0
-print(order8.total)
-print(order1.total)
+
+
+print("===============================================================")
+print("================Review==============")
+print("===============================================================")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("||||||||||||||||||||======110. Enumerations======||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
+print("===============================================================")
+print("================Introducing Enumerations==============")
+print("===============================================================")
+//Instructions
+//Click Next when ready
 print("===============================================================")
 print("================What is an Enumeration?==============")
 print("===============================================================")
@@ -1673,17 +1624,15 @@ print("===============================================================")
 //  3.  Initialize a variable value named myRide that is initially set to the truck case of the Vehicle type.
 //  4.  Set 'myRide' to be the airplane case using short dot syntax.
 // 1 & 2: Define Vehicle enumeration and cases here
-enum VehicleA {
-  case airplane, boat, truck
-}
+
 
 
 // 3: Initialize myRide here
-var myRideA = VehicleA.truck
+
 
 
 // 4: Set myRide to airplane case here
-myRideA = .airplane
+
 
 
 print("===============================================================")
@@ -1695,21 +1644,17 @@ print("===============================================================")
 //One for airplane that prints "Let's fly to Peru".
 //One for boat that prints "Let's sail to Hawaii".
 //One for truck that prints "Let's drive to the store”.
-enum VehicleB {
+enum Vehicle {
     case airplane
     case boat
     case truck
 }
 // 1: Add instance of Vehicle here
-var myRideB = VehicleB.boat
+
 
 
 // 2: Add switch statement here
-switch myRideB {
-case .airplane: print("Let's fly to Peru")
-case .boat: print("Let's sail to Hawaii")
-case .truck: print("Let's drive to the store")
-}
+
 
 
 print("===============================================================")
@@ -1720,15 +1665,13 @@ print("===============================================================")
 //  2.  Create a for loop that prints all of the cases of the Vehicle enum.
 // 1: Make Vehicle conform to CaseIterable
 
-enum VehicleC: CaseIterable{
+enum VehicleB {
     case truck
     case boat
     case airplane
 }
 // 2: Create for loop here
-for vehicleC in VehicleC.allCases {
-  print(vehicleC)
-}
+
 
 
 print("===============================================================")
@@ -1739,20 +1682,20 @@ print("===============================================================")
 //  2.  Explicitly assign the value of "T" to the truck case, "B" to the boat case, and "A" to the airplane case.
 //  3.  Print the raw value of the airplane case to the console.
 //  4.  Create a constant called myBoat and assign an instance of Vehicle of the case boat using its raw value.
-enum VehicleD: Character { // 1: Define the raw value type here
+enum VehicleC { // 1: Define the raw value type here
     // 2: Explicitly assign values to these cases
-    case truck = "T"
-    case boat = "B"
-    case airplane = "A"
+    case truck
+    case boat
+    case airplane
 }
  
 // 3: Print the raw value here
-print(VehicleD.airplane.rawValue)
+
 
 
 // 4: Define constant here
-let myBoat = VehicleD.boat.rawValue
-print(myBoat)
+
+
 
 print("===============================================================")
 print("================Using Associated Values with Enumerations==============")
@@ -1762,21 +1705,17 @@ print("===============================================================")
 //  2.  Set isFourWheelDrive to true in the declaration of myRide.
 //  3.  Extract isFourWheelDrive as a constant in the truck case within the switch statement.
 //  4.  Add logic to the truck case that prints "Let's go to the mountains" if isFourWheelDrive is true, and "Let's go to the store" if it is false.
-enum VehicleE {
-  case truck(isFourWheelDrive: Bool) // 1: Add associated value here
+enum VehicleD {
+    case truck // 1: Add associated value here
     case boat
     case airplane
 }
  
-let myRideE = VehicleE.truck(isFourWheelDrive: true) // 2: Set associated value here
-switch myRideE {
-case let .truck(fourWheelDrive): // 3: Extract value here
+let myRide = VehicleD.truck // 2: Set associated value here
+switch myRide {
+case .truck: // 3: Extract value here
     // 4: Add logic here
-  if fourWheelDrive {
-    print("Let's go to the mountains")
-  } else {
     print("Let's go to the store.")
-  }
 case .boat:
     print("Let's sail to Hawaii")
 case .airplane:
@@ -1789,30 +1728,21 @@ print("===============================================================")
 //  1.  Create an instance method called goOffRoad inside of the Vehicle enumeration that mutates itself into a truck. The isFourWheelDrive associated value should be set to true.
 //  2.  Call the goOffRoad() method on the myRide instance.
 //  3.  Print the contents of the myRide variable.
-enum VehicleF {
+enum VehicleE {
     case truck(isFourWheelDrive: Bool)
     case boat
     case airplane
     
     // 1: Create mutating instance method here
-  mutating func goOffRoad() {
-  switch self {
-  case .airplane: self = .truck(isFourWheelDrive: true)
-  case .boat: self = .truck(isFourWheelDrive: true)
-  case .truck(isFourWheelDrive: true) : self = .truck(isFourWheelDrive: true)
-  case .truck(isFourWheelDrive: false) : self = .truck(isFourWheelDrive: true)
 
-    
-  }
-  }
 }
-var myRideF = VehicleF.airplane
+var myRideE = VehicleE.airplane
 // 2: Call method here
-myRideF.goOffRoad()
+
 
 
 // 3: Print the contents of myRide
-print(myRideF)
+
 
 
 print("===============================================================")
@@ -1826,27 +1756,22 @@ print("===============================================================")
 //  •  Truck returns: "This is a truck with four wheel drive" if isFourWheelDrive is true
 //  2.  Instantiate a constant named myRide that is an instance of the Vehicle enumeration of case truck where isFourWheelDrive is true.
 //  3.  Print the description of the myRide constant.
-enum VehicleG {
+enum VehicleF {
     case airplane
     case boat
     case truck(isFourWheelDrive: Bool)
     
     // 1: Create computed value here
-  var description: String {
-    switch self {
-    case .airplane: return "This is an airplane"
-    case .boat: return "This is a boat"
-    case .truck(isFourWheelDrive: true): return "This is a truck with four wheel drive"
-    case .truck(isFourWheelDrive: false): return "This is a truck"
-    }
-
-
-  }
+    
 }
  
 // 2: Intantiate myRide constant here
-var myRideG = VehicleG.truck(isFourWheelDrive: true)
+ 
 
 // 3: Print the description of myRide here
-print(myRideG.description)
 
+
+print("===============================================================")
+print("================Reviewing What We Learned==============")
+print("===============================================================")
+//Instructions
