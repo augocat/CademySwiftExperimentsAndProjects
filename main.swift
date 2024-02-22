@@ -1357,7 +1357,7 @@ print("===============================================================")
 //  •  .rating is 3.5
 //  •  .delivery is true
 //  3.  Let’s print out all four properties of bobsBurgers one by one using print() statements.
-class Restaurant {
+class RestaurantB {
   var name = ""
   var type = [""]
   var rating = 0.0
@@ -1384,7 +1384,7 @@ print("===============================================================")
 //  •  delivery: false
 //Make sure to do this in one line!
 //  3.  Let’s print out all four properties of laRatatouille one by one using print().
-class RestaurantB {
+class RestaurantC {
   var name = ""
   var type = [""]
   var rating = 0.0
