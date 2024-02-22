@@ -4,7 +4,7 @@ print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("|||||||||||||||||||||======0001. Variables======|||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("=======================Declare a Variable======================")
+print("=======================1.Experiment: Declare a Variable======================")
 print("===============================================================")
 //Instructions
 //1.  Declare a variable named year with a value of the current year.
@@ -13,7 +13,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("======================Arithmetic Operators=====================")
+print("======================2.Experiment: Arithmetic Operators=====================")
 print("===============================================================")
 //Instructions
 //1.  In the code editor, we have already declared and initialized a variable called amount.
@@ -25,7 +25,7 @@ var amount = 18.50
 
 
 print("===============================================================")
-print("==================Compound Assignment Operators================")
+print("==================3.Experiment: Compound Assignment Operators================")
 print("===============================================================")
 //Instructions
 //1.  Imagine being the owner of a small fruit stand. To start the day, there are 16 apples in the inventory.
@@ -38,7 +38,7 @@ var apples = 16
 
 print(apples)
 print("===============================================================")
-print("==============================Type=============================")
+print("==============================4.Experiment: Type=============================")
 print("===============================================================")
 //Instructions
 //1.  Declare a String variable named book with a value of "Just Kids".
@@ -47,7 +47,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("======================String Interpolation=====================")
+print("======================5.Experiment: String Interpolation=====================")
 print("===============================================================")
 //Instructions
 //1.  Inside String.swift, declare a variable called age and set it equal to your age.
@@ -58,7 +58,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("============================Constants==========================")
+print("============================6.Experiment: Constants==========================")
 print("===============================================================")
 //Instructions
 //1.  Declare a constant named months and assign it the number of months that end with "y".
@@ -67,7 +67,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("=====================Challenge: Temperature====================")
+print("=====================7.Experiment: Challenge: Temperature====================")
 print("===============================================================")
 //Instructions
 //1. First, search for the current temperature of New York City in Fahrenheit.
@@ -85,7 +85,7 @@ print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("|||||||||||||||||||======0010a.Conditionals======||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("==========================If Statement=========================")
+print("==========================1.Experiment: If Statement=========================")
 print("===============================================================")
 //Instructions
 //1.  In LearnToCode.swift, we'll create an if statement that prints a message for you.
@@ -98,7 +98,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("=========================Else Statement========================")
+print("=========================2.Experiment: Else Statement========================")
 print("===============================================================")
 //Instructions
 //1.  In Glasses.swift, we'll create an if/else that prints an emoji representing you!
@@ -109,8 +109,9 @@ print("===============================================================")
 // Write your code below 👓
 
 
+
 print("===============================================================")
-print("======================Comparison Operators=====================")
+print("======================3.Experiment: Comparison Operators=====================")
 print("===============================================================")
 //Instructions
 //1.  In SwiftJam.swift, we'll set up an if/else statement that determines the winning team in a basketball game between tuneSquad and Monstars.
@@ -123,7 +124,7 @@ let monstarsPoints = 77
 
 
 print("===============================================================")
-print("=======================Else If Statements======================")
+print("=======================4.Experiment: Else If Statements======================")
 print("===============================================================")
 //Instructions
 //1.  In Languages.swift, we'll write a program that translates the abbreviation of languages spoken in New York.
@@ -142,7 +143,7 @@ Tagalog: Tag*/
 
 
 print("===============================================================")
-print("==================Ternary Conditional Operator=================")
+print("==================5.Experiment: Ternary Conditional Operator=================")
 print("===============================================================")
 //Instructions
 //1.  In Sailing.swift, we've set up an if/else statement that checks for windiness.
@@ -158,7 +159,7 @@ print("Motor on")
 
 
 print("===============================================================")
-print("========================Switch Statement=======================")
+print("========================6.Experiment: Switch Statement=======================")
 print("===============================================================")
 //Instructions
 //1.  In Superheroes.swift, we have a series of else if statements that match a superhero's secret identity to their superhero name.
@@ -182,7 +183,7 @@ superheroName = "Unknown"
 
 
 print("===============================================================")
-print("===============Switch Statement: Interval Matching=============")
+print("===============7.Experiment: Switch Statement: Interval Matching=============")
 print("===============================================================")
 //Instructions
 //1.  In StarWarsVillains.swift, we'll create a switch statement that determines the villain in a Stars Wars episode. We've declared and initialized two variables that will be used throughout our switch statement.
@@ -201,7 +202,7 @@ var villain: String
 
 
 print("===============================================================")
-print("================Switch Statement: Compound Cases===============")
+print("================8.Experiment: Switch Statement: Compound Cases===============")
 print("===============================================================")
 //Instructions
 //1.  The 8 planets within our solar system are often categorized as terrestrial or jovian planets. In Planets.swift, we'll set up a switch statement that utilizes compound cases to determine the type of planet its given.
@@ -219,7 +220,7 @@ var planet = "Earth"
 
 //Terrestrial planet
 print("===============================================================")
-print("=================Switch Statement: where Clause================")
+print("=================9.Experiment: Switch Statement: where Clause================")
 print("===============================================================")
 //Instructions
 //  1.  In Numbers.swift, we'll set up a program that determines if a number between 10 and 20 is prime or composite.
@@ -242,7 +243,7 @@ print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("||||||||||||||||======0010b. Logical Operators======|||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("======================Logical AND Operator=====================")
+print("======================1.Experiment: Logical AND Operator=====================")
 print("===============================================================")
 //Instructions
 //1.  In NewYear.swift, we've declared the variables, midnight and date to be used within our New Year program.
@@ -256,7 +257,7 @@ var date = "January 1, 2020"
 
 
 print("===============================================================")
-print("=======================Logical OR Operator=====================")
+print("=======================2.Experiment: Logical OR Operator=====================")
 print("===============================================================")
 //Instructions
 //1.  In SafetyFirst.swift, declare the following variables:
@@ -268,7 +269,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("======================Logical NOT Operator=====================")
+print("======================3.Experiment: Logical NOT Operator=====================")
 print("===============================================================")
 //Instructions
 //1.  In NotOperator.swift, we've declared a variable feelingWell and set up an if/else statement that determines a course of action according to how we feel.
@@ -285,7 +286,7 @@ if !feelingWell {
 
 }
 print("===============================================================")
-print("===================Combining Logical Operators=================")
+print("===================4.Experiment: Combining Logical Operators=================")
 print("===============================================================")
 //Instructions
 //1.  In order to access an iPhone, Apple requires that you enter the correct password or get access through TouchID. 📱
@@ -304,7 +305,7 @@ var unlock: Bool
 
 
 print("===============================================================")
-print("=================Controlling Order of Execution================")
+print("=================5.Experiment: Controlling Order of Execution================")
 print("===============================================================")
 //Instructions
 //1.  In Practice.swift, we've set up multiple expressions that are missing certain logical operators.
@@ -329,7 +330,7 @@ print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("||||||||||||||||||||||======0010b. Loops======|||||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("=========================Repeating Tasks=======================")
+print("=========================1.Experiment: Repeating Tasks=======================")
 print("===============================================================")
 //Instructions
 //1.  Using 16 print() statements, print out: "This can be so much easier with loops!"
@@ -337,7 +338,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("=========================The for-in Loop=======================")
+print("=========================2.Experiment: The for-in Loop=======================")
 print("===============================================================")
 //Instructions
 //1.  Create a for-in loop that:
@@ -359,7 +360,7 @@ print(".......................")
 
 
 print("===============================================================")
-print("=======================The Stride Function=====================")
+print("=======================3.Experiment: The Stride Function=====================")
 print("===============================================================")
 //Instructions
 //1.  Currently in Countdown.swift we have a for-in loop that counts forwards: 1, 2, 3. Change the sequence in the loop to use stride() to count backwards with the following arguments:
@@ -376,7 +377,7 @@ print(num)
 
 print("GO!")
 print("===============================================================")
-print("====================Iterating Through Strings==================")
+print("====================4.Experiment: Iterating Through Strings==================")
 print("===============================================================")
 //Instructions
 //1.  Create a for-in loop that iterates over the characters in funFact using char as the iterator (placeholder) variable.
@@ -390,7 +391,7 @@ var funFact = "exlxephxxxaxnts xcaxxn'xxt xxxjxumxpx."
 
 
 print("===============================================================")
-print("========================Using Underscore=======================")
+print("========================5.Experiment: Using Underscore=======================")
 print("===============================================================")
 //Instructions
 //1.  In Underscore.swift:
@@ -402,7 +403,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("======================The continue Keyword=====================")
+print("======================6.Experiment: The continue Keyword=====================")
 print("===============================================================")
 //Instructions
 //1.  Currently, in our for-in loop we print out every single number in the range, 1...9. However, we don’t want to print out the odd numbers.
@@ -420,7 +421,7 @@ print(num)
 print("Who do we appreciate?")
 print("YOU!")
 print("===============================================================")
-print("========================The break Keyword======================")
+print("========================7.Experiment: The break Keyword======================")
 print("===============================================================")
 //Instructions
 //1.  In Break.swift, we have the structure of our for-in loop with a print() statement at the end of it.
@@ -438,7 +439,7 @@ for counter in 1...15 {
 print("Is it \(counter)?")
 }
 print("===============================================================")
-print("===========================While Loop==========================")
+print("===========================8.Experiment: While Loop==========================")
 print("===============================================================")
 //Instructions
 //1.  In Guessing.swift, we have both a guess and a magicNum variable, each storing a random variable. We want to create a while loop that continues looping for as long as the values of both variables are different.
@@ -463,7 +464,7 @@ print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("||||||||||||||||||||||======0011A. Arrays======||||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("=====================Creating an Empty Array===================")
+print("=====================1.Experiment: Creating an Empty Array===================")
 print("===============================================================")
 //Instructions
 //1.  The Tokyo Subway has different payment options for adults and children.
@@ -476,7 +477,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("====================Creating an Array Literal==================")
+print("====================2.Experiment: Creating an Array Literal==================")
 print("===============================================================")
 //Instructions
 //1.  Suppose the Tokyo Subway costs are as follows:
@@ -493,7 +494,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("==============================Index============================")
+print("==============================3.Experiment: Index============================")
 print("===============================================================")
 //Instructions
 //1.  The 24-hour weather forecast is recorded in an array called temperature, starting with the current temperature as its first value.
@@ -504,7 +505,7 @@ var temperature: [Int] = [66, 68, 72, 76, 80, 82, 85, 85, 84, 82, 81, 78, 74, 73
 
 
 print("===============================================================")
-print("=========================.count Property=======================")
+print("=========================4.Experiment: .count Property=======================")
 print("===============================================================")
 //Instructions
 //1.  It takes too long to count the number of elements in countingRhyme with your eyes.
@@ -515,7 +516,7 @@ var countingRhyme = ["eeny", "meeny", "miny", "moe", "catch", "a", "coder", "by"
 
 
 print("===============================================================")
-print("================.append() Method==============")
+print("================5.Experiment: .append() Method==============")
 print("===============================================================")
 //Instructions
 //1.  What are some of your New Year’s resolutions?
@@ -529,9 +530,9 @@ var resolutions = ["play more music 🎸",
 // Write your code below 💪
 
 
-
+print(resolutions)
 print("===============================================================")
-print("================.insert() and .remove() Methods==============")
+print("================6.Experiment: .insert() and .remove() Methods==============")
 print("===============================================================")
 //Instructions
 //1.  In the code editor, we have an array called dna with three-letter codes of nucleotides, also known as codons.
@@ -545,7 +546,7 @@ var dna = ["ATG", "ACG", "GAA", "TAT"]
 
 
 print("===============================================================")
-print("================Iterating Over an Array==============")
+print("================7.Experiment: Iterating Over an Array==============")
 print("===============================================================")
 //Instructions
 //1.  Here are the orders from a receipt. Let’s do some calculations.
@@ -559,12 +560,11 @@ var receipt = [12.00, 3.75, 6.50, 19.99]
 // Write your code below 🧾
 
 
-
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("|||||||||||||||||||||||======0011B. Sets======|||||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("================Creating a Set==============")
+print("================1.Experiment: Creating a Set==============")
 print("===============================================================")
 //Instructions
 //1.  Create an empty set called consonants with Character type values.
@@ -575,7 +575,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================.count and .isEmpty==============")
+print("================2.Experiment: .count and .isEmpty==============")
 print("===============================================================")
 //Instructions
 //1.  Create an if statement in Socks.swift with a conditional that checks if sockDrawer is empty using .isEmpty.
@@ -591,7 +591,7 @@ var sockDrawer: Set = ["Red Polka Dots", "Blue Stripes", "Plain Whites"]
 
 
 print("===============================================================")
-print("================Inserting Elements==============")
+print("================3.Experiment: Inserting Elements==============")
 print("===============================================================")
 //Instructions
 //1.  Add the value "Hermione" to the set friends using .insert().
@@ -605,7 +605,7 @@ print("There are some things you can't share without ending up liking each other
 
 print("Friends: \(friends)")
 print("===============================================================")
-print("================Removing Elements==============")
+print("================4.Experiment: Removing Elements==============")
 print("===============================================================")
 //Instructions
 //1.  Take a look at the set in Planets.swift. Since "Pluto" is no longer considered a planet, we should remove it from our set.
@@ -621,7 +621,7 @@ var planets: Set = ["Earth", "Jupiter", "Mars", "Neptune", "Saturn", "Venus", "U
 
 print(planets)
 print("===============================================================")
-print("================Checking For Elements==============")
+print("================5.Experiment: Checking For Elements==============")
 print("===============================================================")
 //Instructions
 //1.  Imagine owning a small coffee shop. A customer comes in asking for a "Blueberry" flavored coffee.
@@ -634,7 +634,7 @@ var coffeeFlavors: Set = ["Caramel", "Mocha", "Pumpkin Spice", "Vanilla", "Blueb
 
 
 print("===============================================================")
-print("================Iterating Through a Set==============")
+print("================6.Experiment: Iterating Through a Set==============")
 print("===============================================================")
 //Instructions
 //1.  In Vacation.swift, the set thingsToPack contains items we want to bring on a trip. The other set, suitcase, is an empty set we will populate to reflect the items we have packed.
@@ -648,8 +648,9 @@ var suitcase = Set<String>()
 
 
 
+print(suitcase)
 print("===============================================================")
-print("================Set Operations: .intersection()==============")
+print("================7.Experiment: Set Operations: .intersection()==============")
 print("===============================================================")
 //Instructions
 //1.  In Animals.swift we have two sets: swim and fly.
@@ -662,19 +663,19 @@ var fly: Set = ["Humming birds", "Bats", "Ducks", "Puffins"]
 
 
 print("===============================================================")
-print("================Set Operations: .union()==============")
+print("================8.Experiment: Set Operations: .union()==============")
 print("===============================================================")
 //Instructions
 //1.  In Alphabet.swift, create a set called alphabet that uses .union() to combine the values of the sets consonants and vowels.
 //Use print() to output alphabet.
-var consonants: Set = ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"]
-var vowels: Set = ["A", "E", "I", "O", "U"]
+var consonantsB: Set = ["B", "C", "D", "F", "G", "H", "J", "K", "L", "M", "N", "P", "Q", "R", "S", "T", "V", "W", "X", "Y", "Z"]
+var vowelsB: Set = ["A", "E", "I", "O", "U"]
 // Write your code below 🔡
 
 
 
 print("===============================================================")
-print("================Set Operations: .symmetricDifference()==============")
+print("================9.Experiment: Set Operations: .symmetricDifference()==============")
 print("===============================================================")
 //Instructions
 //1.  Take a look at the two sets oscarWinners and emmyWinners in Awards.swift.
@@ -687,7 +688,7 @@ var emmyWinners: Set = ["Peter Dinklage", "John Legend", "Audrey Hepburn", "Rita
 
 
 print("===============================================================")
-print("================Set Operations: subtracting()==============")
+print("================10.Experiment: Set Operations: subtracting()==============")
 print("===============================================================")
 //Instructions
 //1.  Take a look at the sets foodEmojis and fruitEmojis in Emoji.swift.
@@ -698,12 +699,11 @@ var fruitEmojis: Set = ["🍇", "🍎", "🍒"]
 // Add your code below 🥗
 
 
-
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("|||||||||||||||||||======0011C. Dictionaries======|||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("================Creating an Empty Dictionary==============")
+print("================1.Experiment: Creating an Empty Dictionary==============")
 print("===============================================================")
 //Instructions
 //1.  Declare an empty dictionary called emptyLiteral with String type keys and Int type values using dictionary literal syntax.
@@ -713,7 +713,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Creating a Dictionary Literal==============")
+print("================2.Experiment: Creating a Dictionary Literal==============")
 print("===============================================================")
 //Instructions
 //1.  Declare a dictionary variable named roleModels that contains String type keys and String type values using dictionary literal syntax.
@@ -730,7 +730,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Type Inference==============")
+print("================3.Experiment: Type Inference==============")
 print("===============================================================")
 //Instructions
 //1.  Declare a dictionary called movieYears using type inference syntax.
@@ -743,7 +743,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Adding Elements==============")
+print("================4.Experiment: Adding Elements==============")
 print("===============================================================")
 //Instructions
 //1.  Take a look at the dictionary teaSteepingTemperature in TeaTemperature.swift to see the correct temperature to steep different teas.
@@ -761,7 +761,7 @@ var teaSteepingTemperature = [
 
 
 print("===============================================================")
-print("================Updating Elements==============")
+print("================5.Experiment: Updating Elements==============")
 print("===============================================================")
 //Instructions
 //1.  Take a look at the dictionary abbreviations in Abbreviations.swift.
@@ -781,7 +781,7 @@ var abbreviations = [
 
 print(abbreviations)
 print("===============================================================")
-print("================Removing Elements==============")
+print("================6.Experiment: Removing Elements==============")
 print("===============================================================")
 //Instructions
 //1.  Check out the dictionary rainbowHex in Color.swift. The dictionary should only contain the names and hex values for the colors of the rainbow, but it currently has a few extra elements.
@@ -803,7 +803,7 @@ var rainbowHex = [
 
 print(rainbowHex)
 print("===============================================================")
-print("================Inspecting a Dictionary==============")
+print("================7.Experiment: Inspecting a Dictionary==============")
 print("===============================================================")
 //Instructions
 //1.  Create an if statement that checks if numberOfSides is empty using .isEmpty.
@@ -822,7 +822,7 @@ var numberOfSides = [
 
 
 print("===============================================================")
-print("================Accessing Values==============")
+print("================8.Experiment: Accessing Values==============")
 print("===============================================================")
 //Instructions
 //1.  Assign the value associated with the key "Sunflower" in the dictionary flowerNames to a variable called sunflowerScientific using subscript syntax.
@@ -842,7 +842,7 @@ var flowerNames = [
 
 
 print("===============================================================")
-print("================Iterating through a Dictionary==============")
+print("================9.Experiment: Iterating through a Dictionary==============")
 print("===============================================================")
 //Instructions
 //1.  In GreekMythology.swift, iterate through the keys and values of the dictionary mythology using a for-in loop.
@@ -863,7 +863,7 @@ var mythology = [
 
 
 print("===============================================================")
-print("================Using .keys and .values==============")
+print("================10.Experiment: Using .keys and .values==============")
 print("===============================================================")
 //Instructions
 //1.  Underneath the declaration of total, create a for-in loop that iterates only through the values of the dictionary lemonadeStand.
@@ -887,7 +887,7 @@ print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("|||||||||||||||||||||======0100. Functions======|||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("================Defining a Function==============")
+print("================1.Experiment: Defining a Function==============")
 print("===============================================================")
 //Instructions
 //1.  Two of the most common NYC attractions include the Empire State Building and Times Square. In Directions.swift, we'll write a function that prints the directions via subway from the Empire State Building to Times Square.
@@ -904,7 +904,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Calling a Function==============")
+print("================2.Experiment: Calling a Function==============")
 print("===============================================================")
 //Instructions
 //1.  Assume we're writing a program that holds our favorite recipe. In Recipe.swift, define a function, mySpecialRecipe(), that will hold the instructions for a recipe of your choice. ﻿﻿
@@ -916,7 +916,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Returning a Value==============")
+print("================3.Experiment: Returning a Value==============")
 print("===============================================================")
 //Instructions
 //1.  Earlier in the course, we created a BMI calculator that determined a person's Body Mass Index given their height and weight. We'll improve upon this program by making it reusable with a function.
@@ -933,7 +933,7 @@ let height = 1.73 // in Meters
 
 
 print("===============================================================")
-print("================Parameters and Arguments==============")
+print("================4.Experiment: Parameters and Arguments==============")
 print("===============================================================")
 //Instructions
 //1.  Assume we're writing a program that contains formulas we'll need for the Geometry Regent. One of these formulas is the Circumference of a Circle.
@@ -946,7 +946,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Multiple Parameters==============")
+print("================5.Experiment: Multiple Parameters==============")
 print("===============================================================")
 //Instructions
 //1.  In Destination.swift, set up a function, timeToDestination(), that will use an airplane's speed and total distance to determine the duration of a flight.
@@ -965,7 +965,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Argument Labels==============")
+print("================6.Experiment: Argument Labels==============")
 print("===============================================================")
 //Instructions
 //1.  Create a variable named friendsList of type [String] and assign it to an empty array.
@@ -978,7 +978,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Omitting Argument Labels==============")
+print("================7.Experiment: Omitting Argument Labels==============")
 print("===============================================================")
 //Instructions
 //1.  In Museum.swift we'll write a program that will calculate the total entry price to the MoMA museum for a classroom field trip given the number of students and adults attending.
@@ -996,14 +996,14 @@ print("===============================================================")
 //Store this expression in a constant, total and return total as the last line of the function.
 //3.  Call the function and pass in adults and students as arguments. Remember to omit the parameter names.
 //4.  Wrap the function call in a print() statement to output the total price.
-let adults = 2
-let students = 15
+let adults = 3
+let students = 54
 // Write your code below 🏛️
 
 
 
 print("===============================================================")
-print("================Returning Multiple Values==============")
+print("================8.Experiment: Returning Multiple Values==============")
 print("===============================================================")
 //Instructions
 //1.  In Cuisine.swift, set up a function, favoriteCuisine() that returns a tuple of your favorite cuisine.
@@ -1014,16 +1014,16 @@ print("===============================================================")
 //2.  Within the function's body, return a tuple containing information about your favorite cuisine.
 //3.  Below the function declaration, invoke the function and store it in a constant, cuisine.
 //On the following line, use string interpolation and dot syntax within a print() statement to output the following message:
-//“My favorite [cuisine name] dish is [cuisine dish]!”
+//"My favorite [cuisine name] dish is [cuisine dish]!"
 // Write your code below 😋
 
 
 
 print("===============================================================")
-print("================Implicit Return==============")
+print("================9.Experiment: Implicit Return==============")
 print("===============================================================")
 //Instructions
-//1.  In Remainder.swift, declare a function, findRemainder (), that will accept two Int parameters: dividend and divisor and return an Int type.
+//1.  In Remainder.swift, declare a function, findRemainder(), that will accept two Int parameters: dividend and divisor and return an Int type.
 //Within the function, return the arithmetic expression, dividend % divisor using the return keyword.
 //2.  Call the function and pass in 10 as the argument for dividend and 4 as the argument for divisor.
 //Wrap the function call in a print() statement to see the function's output.
@@ -1033,7 +1033,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Default Parameters==============")
+print("================10.Experiment: Default Parameters==============")
 print("===============================================================")
 //Instructions
 //1.  In Ticket.swift, write a function, bookingTicket() that will return a String containing booking information for an upcoming train trip. bookingTicket() should accept the following parameters: ﻿﻿
@@ -1052,7 +1052,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Variadic Parameters==============")
+print("================11.Experiment: Variadic Parameters==============")
 print("===============================================================")
 //Instructions
 //  1.  In the code editor, we'll write a function, avgSongLength(), that will calculate the average duration of 10 Eurovision songs from the 2019 contest in Israel.
@@ -1074,7 +1074,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================In-Out Parameters==============")
+print("================12.Experiment: In-Out Parameters==============")
 print("===============================================================")
 //Instructions
 //1.  Many buildings throughout New York have power generators used for backup during power outages. In the code editor, set up a function that will determine whether a building's power generator should be switched on.
@@ -1098,7 +1098,7 @@ print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("||||||||||||||||||||||======101b. Structs======||||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("================Creating a Structure==============")
+print("================1.Experiment: Creating a Structure==============")
 print("===============================================================")
 //Instructions
 //1.  Create a structure named Book without any properties.
@@ -1110,7 +1110,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Default Property Values==============")
+print("================2.Experiment: Default Property Values==============")
 print("===============================================================")
 //Instructions
 //•  In the provided Book struct, give the following default values for:
@@ -1123,7 +1123,7 @@ struct BookB {
 
 }
 print("===============================================================")
-print("================Creating an Instance==============")
+print("================3.Experiment: Creating an Instance==============")
 print("===============================================================")
 //Instructions
 //1.  Given the Book structure, create an instance of Book and save it to a variable called myFavBook.
@@ -1136,7 +1136,7 @@ var title = ""
 
 
 print("===============================================================")
-print("================Accessing and Editing Properties==============")
+print("================4.Experiment: Accessing and Editing Properties==============")
 print("===============================================================")
 //Instructions
 //1.  Print out the value of myFavBook‘s .pages property.
@@ -1156,7 +1156,7 @@ var myFavBook = BookD()
 
 
 print("===============================================================")
-print("================The Init() Method==============")
+print("================5.Experiment: The Init() Method==============")
 print("===============================================================")
 //Instructions
 //1.  In the Book struct, create an init() method that has two parameters:
@@ -1172,7 +1172,7 @@ var pages: Int
 
 }
 print("===============================================================")
-print("================Memberwise Initialization==============")
+print("================6.Experiment: Memberwise Initialization==============")
 print("===============================================================")
 //Instructions
 //1.  Create a struct called Band that has three properties:
@@ -1188,7 +1188,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Structure Methods==============")
+print("================7.Experiment: Structure Methods==============")
 print("===============================================================")
 //Instructions
 //1.  Create an instance method inside Band called pumpUpCrowd:
@@ -1224,7 +1224,7 @@ init(genre: String, members: Int, isActive: Bool) {
 
 
 print("===============================================================")
-print("================Mutating Methods==============")
+print("================8.Experiment: Mutating Methods==============")
 print("===============================================================")
 //Instructions
 //1.  In the Band structure, let’s create the basis of our mutating method:
@@ -1265,7 +1265,7 @@ var journey = BandC(genre: "jazz", members: 5, isActive: true)
 
 
 print("===============================================================")
-print("================New Type==============")
+print("================9.Experiment: New Type==============")
 print("===============================================================")
 //Instructions
 //1.  Let’s see type() in use in our own code.
@@ -1306,7 +1306,7 @@ var journeyD = BandD(genre: "rock", members: 5, isActive: true)
 
 
 print("===============================================================")
-print("================Structures are Value Types==============")
+print("================10.Experiment: Structures are Value Types==============")
 print("===============================================================")
 //Instructions
 //1.  In Darwin.swift, under the created groundFinch, create another variable called cactusFinch that has the value of groundFinch.
@@ -1333,7 +1333,7 @@ print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("|||||||||||||||||||||======0101a. Classes======||||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("================Creating a Class==============")
+print("================1.Experiment: Creating a Class==============")
 print("===============================================================")
 //Instructions
 //  1.  Create a Restaurant class with the following properties:
@@ -1346,7 +1346,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Creating an Instance==============")
+print("================2.Experiment: Creating an Instance==============")
 print("===============================================================")
 //Instructions
 //  1.  Given the Restaurant class, we now want to use it to model a restaurant called Bob’s Burgers.
@@ -1368,7 +1368,7 @@ class Restaurant {
 
 
 print("===============================================================")
-print("================The Init Method==============")
+print("================3.Experiment: The Init Method==============")
 print("===============================================================")
 //Instructions
 //  1.  In the Restaurant class, create an init() method that has four parameters:
@@ -1395,7 +1395,7 @@ class RestaurantB {
   
 }
 print("===============================================================")
-print("================Inheritance==============")
+print("================4.Experiment: Inheritance==============")
 print("===============================================================")
 //Instructions
 //  1.  Given an Order class that stores information about a food order with the following properties and method:
@@ -1423,7 +1423,7 @@ class Order {
 
 
 print("===============================================================")
-print("================Overriding Methods==============")
+print("================5.Experiment: Overriding Methods==============")
 print("===============================================================")
 //Instructions
 //  1.  Let’s take a look at the Order superclass and the DeliveryOrder subclass again. Something is missing in the new receipt… the newly added delivery fee!
@@ -1466,7 +1466,7 @@ order2.total = 19.69
 
 order2.printReceipt()
 print("===============================================================")
-print("================Classes are Reference Types==============")
+print("================6.Experiment: Classes are Reference Types==============")
 print("===============================================================")
 //Instructions
 //  1.  Let’s return to our Orders example. Suppose there’s a technical difficulty and one of the orders, order1 did not go through and the customer has been waiting!
@@ -1491,12 +1491,11 @@ var order1 = OrderC(items: ["Chili Fries", "Lemonade"], subtotal: 8.75, tip: 2.0
 // Write your code below 🧾
 
 
-
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("||||||||||||||||||||======110. Enumerations======||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("================What is an Enumeration?==============")
+print("================1.Experiment: What is an Enumeration?==============")
 print("===============================================================")
 //Instructions
 //  1.  Define an enumeration named Vehicle.
@@ -1516,7 +1515,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Using Enumerations in a Switch Control Flow==============")
+print("================2.Experiment: Using Enumerations in a Switch Control Flow==============")
 print("===============================================================")
 //Instructions
 //  1.  Create a variable named myRide that is an instance of Vehicle of the truck case.
@@ -1538,7 +1537,7 @@ enum Vehicle {
 
 
 print("===============================================================")
-print("====Iterating Over Enumeration Cases: CaseIterable protocol====")
+print("====3.Experiment: Iterating Over Enumeration Cases: CaseIterable protocol====")
 print("===============================================================")
 //Instructions
 //  1.  Give the Vehicle enumeration access to all of the properties and methods of the CaseIterable protocol.
@@ -1555,7 +1554,7 @@ enum VehicleB {
 
 
 print("===============================================================")
-print("================Defining Raw Values for Enumeration Cases==============")
+print("================4.Experiment: Defining Raw Values for Enumeration Cases==============")
 print("===============================================================")
 //Instructions
 //  1.  Make the Vehicle enumeration store raw values of the Character type.
@@ -1578,7 +1577,7 @@ enum VehicleC { // 1: Define the raw value type here
 
 
 print("===============================================================")
-print("================Using Associated Values with Enumerations==============")
+print("================5.Experiment: Using Associated Values with Enumerations==============")
 print("===============================================================")
 //Instructions
 //  1.  Add an associated Bool value called isFourWheelDrive to the truck case in Vehicle.
@@ -1602,7 +1601,7 @@ case .airplane:
     print("Let's fly to Peru")
 }
 print("===============================================================")
-print("================Implementing Methods in Enumerations==============")
+print("================6.Experiment: Implementing Methods in Enumerations==============")
 print("===============================================================")
 //Instructions
 //  1.  Create an instance method called goOffRoad inside of the Vehicle enumeration that mutates itself into a truck. The isFourWheelDrive associated value should be set to true.
@@ -1626,7 +1625,7 @@ var myRideE = VehicleE.airplane
 
 
 print("===============================================================")
-print("================Implementing a Computed Property in an Enumeration==============")
+print("================7.Experiment: Implementing a Computed Property in an Enumeration==============")
 print("===============================================================")
 //Instructions
 //  1.  Create a computed variable property in Vehicle called description that returns a String value. Here are the description values for each case:
@@ -1655,7 +1654,7 @@ print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("|||||||||||||||||||||======111. Optionals======||||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("================Defining Optionals==============")
+print("================1.Experiment: Defining Optionals==============")
 print("===============================================================")
 //1.  Create a variable called hatColor of type optional String with an initial value of nil.
 //2.  Reassign hatColor to “blue”.
@@ -1666,7 +1665,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Force Unwrapping Optionals==============")
+print("================2.Experiment: Force Unwrapping Optionals==============")
 print("===============================================================")
 //1.  Define a variable flightDistance of type Int with a value of 1000, and a variable connectingFlightDistance of type Int? with a value of 2000.
 //2.  Write an if statement that checks if connectingFlightDistance is not nil.
@@ -1676,7 +1675,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Optional Binding==============")
+print("================3.Experiment: Optional Binding==============")
 print("===============================================================")
 //1.  Define a variable firstName and assign it to your first name. Then define a variable lastName assigned to your last name.
 //2.  Declare a variable suffix of type String? and assign it to a non-nil value like Sr. or III.
@@ -1688,7 +1687,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Multiple Optional Bindings==============")
+print("================4.Experiment: Multiple Optional Bindings==============")
 print("===============================================================")
 //1.  Refactor the code to use a single if/let statement.
 var language = "Swift"
@@ -1715,7 +1714,7 @@ if let firstRelease = firstRelease {
   }
 }
 print("===============================================================")
-print("================Guard Statements==============")
+print("================5.Experiment: Guard Statements==============")
 print("===============================================================")
 //1.  Refactor the code to use a single guard statement. If any of the variables are nil or the Bool is false, return from the function.
 func runProgram() {
@@ -1746,7 +1745,7 @@ if let unwrappedRelease = firstRelease {
 
 runProgram()
 print("===============================================================")
-print("================The Nil-Coalescing Operator==============")
+print("================6.Experiment: The Nil-Coalescing Operator==============")
 print("===============================================================")
 //1.  Declare a variable named favoriteFood of type String? with an initial value of nil.
 //2.  Print favoriteFood to the console. Notice the warnings that appear. Do you see a suggestion in the warnings that uses ???
@@ -1755,7 +1754,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Optional Chaining==============")
+print("================7.Experiment: Optional Chaining==============")
 print("===============================================================")
 //1.  Use an if/let statement and optional chaining to print the length of the president’s name in the form “The president’s name is presidentNameLength characters long”
 //2.  Use an if/let statement and optional chaining to print the length of the vice president’s name in the form “The vice president’s name is vicePresidentNameLength characters long”. The key for the vice president would be “vicePresident” in the studentGovernment dictionary.
@@ -1771,7 +1770,7 @@ var studentGovernment = [
 
 
 print("===============================================================")
-print("================Optionals and Functions==============")
+print("================8.Experiment: Optionals and Functions==============")
 print("===============================================================")
 //1.  Define a function firstIndex(of:in) that takes in a String named “target” with an argument label “of’, and an array of optional strings named “arr” with an argument label “in”. The function should return an optional Int. Don’t worry if the code doesn’t compile at this point yet.
 //2.  This function should iterate over arr and return the first index the target string appears. If the target string is not in arr, the function should return nil. For example:
@@ -1790,11 +1789,11 @@ let words = ["optionals", nil, "are", "great", nil, "at", "handling", nil, "valu
 
 
 
-("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
+print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("|||||||||||||||||||||======1000. Closures======||||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("================Defining a closure==============")
+print("================1.Experiment: Defining a closure==============")
 print("===============================================================")
 //1.  Create a closure that takes no arguments and returns no value. Have the closure print "Hello closures!" in the console. Assign the closure to a constant named helloClosures
 //2.  Call the helloClosures closure in the following line.
@@ -1802,7 +1801,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Inputs and Outputs==============")
+print("================2.Experiment: Inputs and Outputs==============")
 print("===============================================================")
 //1.  Use type annotation to define a closure that takes two integers and returns the sum. Assign it to a constant named add.
 //2.  Call the closure in the following line by adding two numbers and print the result to the console.
@@ -1810,7 +1809,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Passing a closure to a function==============")
+print("================3.Experiment: Passing a closure to a function==============")
 print("===============================================================")
 //1.  To start, create a function named handValue that takes an array of integers named cards and a closure named scoringRules of type (Int) -> Int. The function should return an integer which will be the value of the hand.
 //2.  In the body of the handValue function, calculate the value of the hand with the scoring rules closure and return the value. Start by adding a variable named totalValue initialized to 0. Then apply the closure to each card by looping through the cards array. Return totalValue.
@@ -1823,7 +1822,7 @@ let cards = [8, 2, 5, 3, 41]
 
 
 print("===============================================================")
-print("=======Closure expressions and trailing closure syntax=======")
+print("=======4.Experiment: Closure expressions and trailing closure syntax=======")
 print("===============================================================")
 //1.  Create a function named bake that takes a String and a closure as arguments. The argument names should be ingredient and completionAction, respectively. The closure should accept a String and return no values.
 //2.  Within the bake function, print "Baking {ingredient}" to the console. Then, on the next line, call the closure passing in ingredient as its argument.
@@ -1832,7 +1831,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("================Closure syntactic sugar==============")
+print("================5.Experiment: Closure syntactic sugar==============")
 print("===============================================================")
 //1.  Call the transform function with the provided array and a closure that reverses each string. Be as explicit as possible with the type definitions.
 //NOTE: The reversed() function on String doesn't return a String so we need to wrap the result in a String to convert it: String(str.reversed())
@@ -1854,7 +1853,7 @@ return transformedStrings
 
 
 print("===============================================================")
-print("================Built-in Higher-Order Functions==============")
+print("================6.Experiment: Built-in Higher-Order Functions==============")
 print("===============================================================")
 //1.  Using the filter function from above, filter the names array to only include those that begin with "A" and assign it to a constant named aNames. Use shorthand arguments and exclude the return keyword. Print the result to the console.
 //2.  Use Swift's higher-order function sorted(by:) to sort the names array alphabetically and assign the result to a constant named sortedNames. Print the result to the console.
@@ -1864,7 +1863,7 @@ var names = ["Jason", "Kimberly", "Zach", "Austin", "Sarah", "Adam", "Kathy"]
 
 
 print("===============================================================")
-print("================Escaping Closures==============")
+print("================7.Experiment: Escaping Closures==============")
 print("===============================================================")
 //1.  In Escaping. swift, we have a NumberPrinter struct that holds onto some closures for execution later. Add the @escaping keyword to the closures that require it.
 struct NumberPrinter {
@@ -1886,17 +1885,16 @@ completeAction()
 }
 }
 
-let printer = NumberPrinter(startAction: { print("Starting!") }, completeAction: { print("Finished!") })
-
-printer.printNumber(using: { Int.random(in: 1..<100) })
-printer.printNumber(using: { Int.random(in: 1..<5) })
+//let printer = NumberPrinter(startAction: { print("Starting!") }, completeAction: { print("Finished!") })
+//
+//printer.printNumber(using: { Int.random(in: 1..<100) })
+//printer.printNumber(using: { Int.random(in: 1..<5) })
 print("===============================================================")
-print("================Capturing Values==============")
+print("================8.Experiment: Capturing Values==============")
 print("===============================================================")
 //1.  Define a function named createMultiplier that accepts an integer named factor and returns a closure with type () -> Int
 //2.  Within the function, declare a variable named value of type Int initialized with a value of 1. Then, declare a closure named multiplier that closes over value, multiplies it by factor, and is returned. Then, return the multiplier closure to the closing function.
 //3.  Create a closure from the createMultiplier function with a value of 3 and assign it to a constant named multiplier. What is the value after calling multiplier() 3 times?
 // Enter your code below
-
 
 
