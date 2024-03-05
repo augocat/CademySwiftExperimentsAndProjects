@@ -1,4 +1,4 @@
-# CodeCademyExperiment9Feb2024NIGHTTIME
+# CodeCademyExperiment9Feb2024
 Variables to Functions
 //
 //  main.swift
