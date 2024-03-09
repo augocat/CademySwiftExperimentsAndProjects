@@ -146,15 +146,20 @@ print("===============================================================")
 //1.  In Ticket.swift, write a function, bookingTicket() that will return a String containing booking information for an upcoming train trip. bookingTicket() should accept the following parameters: ﻿﻿
 //•  passengerName of type String and a default value of your name.
 //•  ﻿﻿seatClass of type String and a default value of "Economy"
-//•  ﻿﻿time0fDeparture of type Int
+//•  ﻿﻿timeOfDeparture of type Int
 //Within the function, return the following String where the brackets are to be replaced with the correct string interpolation syntax:
-//[passengerName], your seat class is [seatClass], and you will be departing at [time0fDeparture].
-//2.  Call the function and pass in 9 for the time0fDeparture parameter. Don't include any other parameters or arguments in your function call.
+//[passengerName], your seat class is [seatClass], and you will be departing at [timeOfDeparture].
+//2.  Call the function and pass in 9 for the timeOfDeparture parameter. Don't include any other parameters or arguments in your function call.
 //Wrap the function call within a print() statement.
 //3.  It's the passenger's lucky day, and they get a seat class upgrade to Business class!
 //On the following line, call the function passing Business for the seatClass parameter, and 9 for the time0fDeparture parameter.
 //Wrap this function call in a print() statement.
 // Write your code below 🎫
+func bookingTicket(passengerName: String = "Edd", seatClass: String = "Economy", timeOfDeparture: Int) -> String {
+  return "\(passengerName), your seat class is \(seatClass), and you will be departing at \(timeOfDeparture)"
+}
+print(bookingTicket(timeOfDeparture: 9))
+
 
 
 
