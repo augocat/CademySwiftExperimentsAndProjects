@@ -59,7 +59,8 @@ print("===============================================================")
 //E.g. January ends in “y".
 // Write your code below
 
-
+/*UNCOMMENT 
+print("The number of months that end with \"y\" is \(months).")*/
 print("===============================================================")
 print("=====================7.Exercise: Challenge: Temperature====================")
 print("===============================================================")
