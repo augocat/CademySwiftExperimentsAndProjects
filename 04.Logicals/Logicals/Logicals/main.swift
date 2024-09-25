@@ -4,7 +4,7 @@ print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("||||||||||||||||======0011b. Logical Operators======|||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("======================1.Experiment: Logical AND Operator=====================")
+print("======================2.Experiment: Logical AND Operator=====================")
 print("===============================================================")
 //1.  In NewYear.swift, we've declared the variables, midnight and date to be used within our New Year program.
 //Below the variables, create an if statement that:
@@ -17,7 +17,7 @@ var date = "January 1, 2020"
 
 
 print("===============================================================")
-print("=======================2.Experiment: Logical OR Operator=====================")
+print("=======================3.Experiment: Logical OR Operator=====================")
 print("===============================================================")
 //1.  In SafetyFirst.swift, declare the following variables:
 //•  ﻿﻿carInMotion and set its value to be false.
@@ -28,7 +28,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("======================3.Experiment: Logical NOT Operator=====================")
+print("======================4.Experiment: Logical NOT Operator=====================")
 print("===============================================================")
 //1.  In NotOperator.swift, we've declared a variable feelingWell and set up an if/else statement that determines a course of action according to how we feel.
 //Place the following print() statements within their correct code blocks:
@@ -44,7 +44,7 @@ if !feelingWell {
 
 }
 print("===============================================================")
-print("===================4.Experiment: Combining Logical Operators=================")
+print("===================5.Experiment: Combining Logical Operators=================")
 print("===============================================================")
 //1.  In order to access an iPhone, Apple requires that you enter the correct password or get access through TouchID. 📱
 //In Security.swift, we've provided three variables that represent these cases. We'll use them and logical operators to build a program that grants or denies a user access.
@@ -62,7 +62,7 @@ var unlock: Bool
 
 
 print("===============================================================")
-print("=================5.Experiment: Controlling Order of Execution================")
+print("=================6.Experiment: Controlling Order of Execution================")
 print("===============================================================")
 //1.  In Practice.swift, we've set up multiple expressions that are missing certain logical operators.
 //Add a logical operator, && or ||, in place of _ _ _ to complete the logical expressions.
