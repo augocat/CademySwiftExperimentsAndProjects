@@ -4,7 +4,7 @@ print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("|||||||||||||||||||======0011a. Conditionals======||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("==========================1.Experiment: If Statement=========================")
+print("==========================2.Experiment: If Statement=========================")
 print("===============================================================")
 //1.  In LearnToCode.swift, we'll create an if statement that prints a message for you.
 //First, declare a variable, learningToCode, using the var keyword. Assign it a boolean value, true.
@@ -16,7 +16,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("=========================2.Experiment: Else Statement========================")
+print("=========================3.Experiment: Else Statement========================")
 print("===============================================================")
 //1.  In Glasses.swift, we'll create an if/else that prints an emoji representing you!
 //First, declare a variable, wearGlasses. Assign it a Boolean value true or false depending on if you wear glasses.
@@ -28,7 +28,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("======================3.Experiment: Comparison Operators=====================")
+print("======================4.Experiment: Comparison Operators=====================")
 print("===============================================================")
 //1.  In SwiftJam.swift, we'll set up an if/else statement that determines the winning team in a basketball game between tuneSquad and Monstars.
 //•  ﻿﻿First, create an if statement that checks if tuneSquadPoints is less than monstarsPoints using the correct comparison operator.
@@ -40,7 +40,7 @@ let monstarsPoints = 77
 
 
 print("===============================================================")
-print("=======================4.Experiment: Else If Statements======================")
+print("=======================5.Experiment: Else If Statements======================")
 print("===============================================================")
 //1.  In Languages.swift, we'll write a program that translates the abbreviation of languages spoken in New York.
 //First, Google 4 languages spoken in New York and their abbreviations. Store each language name and abbreviation in a multi line comment at the top.
@@ -58,7 +58,7 @@ Tagalog: Tag*/
 
 
 print("===============================================================")
-print("==================5.Experiment: Ternary Conditional Operator=================")
+print("==================6.Experiment: Ternary Conditional Operator=================")
 print("===============================================================")
 //1.  In Sailing.swift, we've set up an if/else statement that checks for windiness.
 //On the following line, rewrite the conditional in ternary format.
@@ -73,7 +73,7 @@ print("Motor on")
 
 
 print("===============================================================")
-print("========================6.Experiment: Switch Statement=======================")
+print("========================7.Experiment: Switch Statement=======================")
 print("===============================================================")
 //1.  In Superheroes.swift, we have a series of else if statements that match a superhero's secret identity to their superhero name.
 //Rewrite this conditional in switch statement format.
@@ -96,7 +96,7 @@ superheroName = "Unknown"
 
 
 print("===============================================================")
-print("===============7.Experiment: Switch Statement: Interval Matching=============")
+print("===============8.Experiment: Switch Statement: Interval Matching=============")
 print("===============================================================")
 //1.  In StarWarsVillains.swift, we'll create a switch statement that determines the villain in a Stars Wars episode. We've declared and initialized two variables that will be used throughout our switch statement.
 //First, create a switch statement that accepts episode as its expression. Keep the body of the switch statement empty for now.
@@ -114,7 +114,7 @@ var villain: String
 
 
 print("===============================================================")
-print("================8.Experiment: Switch Statement: Compound Cases===============")
+print("================9.Experiment: Switch Statement: Compound Cases===============")
 print("===============================================================")
 //1.  The 8 planets within our solar system are often categorized as terrestrial or jovian planets. In Planets.swift, we'll set up a switch statement that utilizes compound cases to determine the type of planet its given.
 //First, create a switch statement that accepts planet as its expression. Keep the body of the switch statement empty for now.
@@ -131,7 +131,7 @@ var planet = "Earth"
 
 //Terrestrial planet
 print("===============================================================")
-print("=================9.Experiment: Switch Statement: where Clause================")
+print("=================10.Experiment: Switch Statement: where Clause================")
 print("===============================================================")
 //  1.  In Numbers.swift, we'll set up a program that determines if a number between 10 and 20 is prime or composite.
 //Below the wholeNumber variable, set up a switch statement that accepts wholeNumber as its expression. Keep the body of the switch statement empty for now.
