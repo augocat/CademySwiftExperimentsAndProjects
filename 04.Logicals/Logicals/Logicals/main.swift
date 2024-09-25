@@ -21,7 +21,7 @@ print("=======================3.Experiment: Logical OR Operator=================
 print("===============================================================")
 //1.  In SafetyFirst.swift, declare the following variables:
 //•  ﻿﻿carInMotion and set its value to be false.
-//•  ﻿﻿insideCar and set its value to be true .
+//•  insideACar and set its value to be true﻿﻿.
 //2.  Below the variable declarations, create an if statement that determines the Boolean result of carInMotion OR insideCar in its condition.
 //Within the code block of the if statement, add a print statement that outputs Safety first! Buckle up.
 // Write your code below 🚘
@@ -32,8 +32,8 @@ print("======================4.Experiment: Logical NOT Operator=================
 print("===============================================================")
 //1.  In NotOperator.swift, we've declared a variable feelingWell and set up an if/else statement that determines a course of action according to how we feel.
 //Place the following print() statements within their correct code blocks:
-//•  print (" Embrace the day!")
-//•  print (" Have some vitamins and take care of yourself 🤒") ```
+//•  print ("Embrace the day!")
+//•  print ("Have some vitamins and take care of yourself 🤒") ```
 var feelingWell = true
 
 if !feelingWell {
