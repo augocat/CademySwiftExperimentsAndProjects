@@ -4,14 +4,14 @@ print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("||||||||||||||||||||||======0100. Loops======|||||||||||||||||||||")
 print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print("===============================================================")
-print("=========================1.Experiment: Repeating Tasks=======================")
+print("=========================2.Experiment: Repeating Tasks=======================")
 print("===============================================================")
 //1.  Using 16 print() statements, print out: "This can be so much easier with loops!"
 // Add your code below 😈
 
 
 print("===============================================================")
-print("=========================2.Experiment: The for-in Loop=======================")
+print("=========================3.Experiment: The for-in Loop=======================")
 print("===============================================================")
 //1.  Create a for-in loop that:
 //•  Uses age as the placeholder.
@@ -32,7 +32,7 @@ print(".......................")
 
 
 print("===============================================================")
-print("=======================3.Experiment: The Stride Function=====================")
+print("=======================4.Experiment: The Stride Function=====================")
 print("===============================================================")
 //1.  Currently in Countdown.swift we have a for-in loop that counts forwards: 1, 2, 3. Change the sequence in the loop to use stride() to count backwards with the following arguments:
 //•  from: 3
@@ -48,7 +48,7 @@ print(num)
 
 print("GO!")
 print("===============================================================")
-print("====================4.Experiment: Iterating Through Strings==================")
+print("====================5.Experiment: Iterating Through Strings==================")
 print("===============================================================")
 //1.  Create a for-in loop that iterates over the characters in funFact using char as the iterator (placeholder) variable.
 //Note: you will see a warning after passing this step, but it’ll go away in the next step!
@@ -61,7 +61,7 @@ var funFact = "exlxephxxxaxnts xcaxxn'xxt xxxjxumxpx."
 
 
 print("===============================================================")
-print("========================5.Experiment: Using Underscore=======================")
+print("========================6.Experiment: Using Underscore=======================")
 print("===============================================================")
 //1.  In Underscore.swift:
 //•  Write a for-in loop that uses an underscore _.
@@ -72,7 +72,7 @@ print("===============================================================")
 
 
 print("===============================================================")
-print("======================6.Experiment: The continue Keyword=====================")
+print("======================7.Experiment: The continue Keyword=====================")
 print("===============================================================")
 //1.  Currently, in our for-in loop we print out every single number in the range, 1...9. However, we don’t want to print out the odd numbers.
 //Inside the for-in loop, add the code needed to skip over the odd numbers by adding:
@@ -89,7 +89,7 @@ print(num)
 print("Who do we appreciate?")
 print("YOU!")
 print("===============================================================")
-print("========================7.Experiment: The break Keyword======================")
+print("========================8.Experiment: The break Keyword======================")
 print("===============================================================")
 //1.  In Break.swift, we have the structure of our for-in loop with a print() statement at the end of it.
 //To complete the program, in the for-in loop:
@@ -106,7 +106,7 @@ for counter in 1...15 {
 print("Is it \(counter)?")
 }
 print("===============================================================")
-print("===========================8.Experiment: While Loop==========================")
+print("===========================9.Experiment: While Loop==========================")
 print("===============================================================")
 //1.  In Guessing.swift, we have both a guess and a magicNum variable, each storing a random variable. We want to create a while loop that continues looping for as long as the values of both variables are different.
 //Under the variable definitions (but before the last print() statement):
