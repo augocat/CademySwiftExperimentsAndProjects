@@ -52,7 +52,7 @@ var pages = 0
 var title = ""
 }
 
-var myFavBook = BookD()
+var myFavBookD = BookD()
 // Write your code below: 📚
 
 
